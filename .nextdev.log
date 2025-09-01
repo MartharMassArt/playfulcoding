@@ -1,0 +1,1363 @@
+
+> playfulcoding@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.4.231:3000
+
+ ✓ Starting...
+ ✓ Ready in 882ms
+   Reload env: .env.local
+
+> playfulcoding@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.4.231:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 750ms
+
+> playfulcoding@0.1.0 dev
+> next dev --turbopack -H 0.0.0.0 -p 3065
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3065
+   - Network:      http://0.0.0.0:3065
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 717ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1717ms
+ GET / 200 in 1942ms
+ ✓ Compiled /favicon.ico in 141ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 412ms
+ ✓ Compiled / in 41ms
+ GET / 200 in 246ms
+ GET / 200 in 225ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 231ms
+ GET / 200 in 77ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 236ms
+ GET / 200 in 58ms
+ GET / 200 in 30ms
+ ✓ Compiled in 76ms
+ GET / 200 in 83ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 464ms
+ ✓ Compiled / in 36ms
+ GET / 200 in 297ms
+ GET / 200 in 318ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 241ms
+ ✓ Compiled /_not-found/page in 152ms
+ GET /project/week-1-2 404 in 198ms
+ GET /project/week-1-2 404 in 50ms
+ GET / 200 in 88ms
+ GET / 200 in 155ms
+ ⚠ Cross origin request detected from 192.168.4.231 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 256ms
+ GET /apple-touch-icon.png 404 in 97ms
+ GET /apple-touch-icon-precomposed.png 404 in 114ms
+ GET /favicon.ico 200 in 286ms
+ GET / 200 in 85ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 225ms
+ GET / 200 in 191ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 246ms
+
+> playfulcoding@0.1.0 dev
+> next dev --turbopack -H 0.0.0.0 -p 3065
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3065
+   - Network:      http://0.0.0.0:3065
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 730ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1343ms
+ GET / 200 in 1599ms
+ ✓ Compiled in 41ms
+ ✓ Compiled / in 18ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.vq00ga2ut7g'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.vq00ga2ut7g'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 629ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.eowzy5kzsvq'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.eowzy5kzsvq'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.vq00ga2ut7g'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.vq00ga2ut7g'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.749xswzxt8f'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.749xswzxt8f'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.zzxn7uf1gj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.zzxn7uf1gj'
+}
+ ✓ Compiled /favicon.ico in 88ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.a2ew20pnj6'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.a2ew20pnj6'
+}
+ ✓ Compiled /_not-found/page in 159ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.ecjtwdsh8un'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.ecjtwdsh8un'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.dk8mq00yh8'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.dk8mq00yh8'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.fw4zfrcy8b8'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.fw4zfrcy8b8'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.w5k7idqcc7e'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.w5k7idqcc7e'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.vwksz6fxts'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.vwksz6fxts'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.44g8wi8y8oj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.44g8wi8y8oj'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.803qlx94y4l'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.803qlx94y4l'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.gkp7bdtejcv'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.gkp7bdtejcv'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.q9blirr0ube'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.q9blirr0ube'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.secor312n0a'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.secor312n0a'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.q9blirr0ube'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.q9blirr0ube'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.4kdqqbs13yp'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.4kdqqbs13yp'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.avp1hw4rw1e'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.avp1hw4rw1e'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.sq9fausyjy'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.sq9fausyjy'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.2dht7grwhxa'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.2dht7grwhxa'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.yt7yp7u8krm'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.yt7yp7u8krm'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.2dht7grwhxa'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.2dht7grwhxa'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.1zfrzbys2ro'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.1zfrzbys2ro'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.ttme4vk2cnq'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.ttme4vk2cnq'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.drrr8ms7h37'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.drrr8ms7h37'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.myrox5xi9oo'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.myrox5xi9oo'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.8q0wbng5bbe'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.8q0wbng5bbe'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.myrox5xi9oo'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.myrox5xi9oo'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.p9d8al2or6'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.p9d8al2or6'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.lvydry7b9c'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.lvydry7b9c'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.rgb06nfwmg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.rgb06nfwmg'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.62c6eavid8o'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.62c6eavid8o'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.ykng76zs9ls'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.ykng76zs9ls'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.62c6eavid8o'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.62c6eavid8o'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.rnh76r73sih'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.rnh76r73sih'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.gxnikh0dz4r'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.gxnikh0dz4r'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.rfgsv398fac'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.rfgsv398fac'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.r2eukrdhjq'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.r2eukrdhjq'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.qdy8ed8hmvd'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.qdy8ed8hmvd'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.dluh22lgnbp'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.dluh22lgnbp'
+}
+
+> playfulcoding@0.1.0 dev
+> next dev --turbopack -H 0.0.0.0 -p 3065
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3065
+   - Network:      http://0.0.0.0:3065
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 725ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1316ms
+ GET / 200 in 1617ms
+ ⚠ Cross origin request detected from 192.168.4.231 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 111ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 380ms
+ GET / 200 in 99ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 226ms
+ GET / 200 in 57ms
+ GET / 200 in 55ms
+ ✓ Compiled /_not-found/page in 144ms
+ GET /syllabus 404 in 185ms
+ GET /syllabus 404 in 46ms
+ GET / 200 in 113ms
+ ✓ Compiled in 73ms
+ GET / 200 in 115ms
+
+> playfulcoding@0.1.0 dev
+> next dev --turbopack -H 0.0.0.0 -p 3065
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3065
+   - Network:      http://0.0.0.0:3065
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 677ms
+ ○ Compiling /project/[id] ...
+ ✓ Compiled /project/[id] in 1582ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-1-2 200 in 2255ms
+ GET /project/week-1-2 200 in 1779ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-3-4 200 in 94ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-1-2 200 in 88ms
+ ✓ Compiled in 77ms
+ ✓ Compiled in 44ms
+ ✓ Compiled /project/[id] in 21ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-1-2 200 in 349ms
+ ⚠ Cross origin request detected from 192.168.4.231 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 183ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 444ms
+ ✓ Compiled in 61ms
+ ✓ Compiled /project/[id] in 25ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-1-2 200 in 211ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-1-2 200 in 271ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 256ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.al07dtmv6ig'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.al07dtmv6ig'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 695ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.hf1fp0onrua'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.hf1fp0onrua'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.al07dtmv6ig'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.al07dtmv6ig'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.92u0u3y97c'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.92u0u3y97c'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.jtuwtvmcjb'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.jtuwtvmcjb'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.fvoupyxi4l4'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.fvoupyxi4l4'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.zb2r16afc79'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.zb2r16afc79'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.jvuxz0wq2u'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.jvuxz0wq2u'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.zb2r16afc79'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.zb2r16afc79'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.n1sjafk4gcl'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.n1sjafk4gcl'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.m4ohthmz7nh'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.m4ohthmz7nh'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.9dtwwc6ko9q'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.9dtwwc6ko9q'
+}
+
+> playfulcoding@0.1.0 dev
+> next dev --turbopack -H 0.0.0.0 -p 3065
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3065
+   - Network:      http://0.0.0.0:3065
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 774ms
+
+> playfulcoding@0.1.0 dev
+> next dev --turbopack -H 0.0.0.0 -p 3065
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3065
+   - Network:      http://0.0.0.0:3065
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 628ms
+ ○ Compiling /project/[id] ...
+ ✓ Compiled /project/[id] in 1421ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-1-2 200 in 2009ms
+ ⚠ Cross origin request detected from 192.168.4.231 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 137ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 412ms
+ ✓ Compiled / in 191ms
+ GET / 200 in 240ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-3-4 200 in 97ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-1-2 200 in 61ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-3-4 200 in 75ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-1-2 200 in 71ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-1-2 200 in 158ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 250ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-3-4 200 in 128ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 243ms
+ GET / 200 in 54ms
+ GET / 200 in 54ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-3-4 200 in 86ms
+ GET / 200 in 66ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-1-2 200 in 84ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-1-2 200 in 75ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-5-6 200 in 65ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-7-9 200 in 64ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-1-2 200 in 74ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-7-9 200 in 74ms
+ ✓ Compiled /project/[id] in 32ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-1-2 200 in 209ms
+ GET /project/week-7-9 200 in 200ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.nbquiqumuff'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.nbquiqumuff'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 734ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.cbh1ykd6fs'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.cbh1ykd6fs'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.nbquiqumuff'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.nbquiqumuff'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.hm1n0e4wft'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.hm1n0e4wft'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.qshscksjbae'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.qshscksjbae'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.zajmy8zsdu'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.zajmy8zsdu'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.31kyzo1jzu'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.31kyzo1jzu'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.zajmy8zsdu'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.zajmy8zsdu'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.uqc9hn524ee'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.uqc9hn524ee'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.3v2wzhz7nuj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.3v2wzhz7nuj'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.o722x24dbmb'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.o722x24dbmb'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.n7we668ostf'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.n7we668ostf'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.f5mqhhm6ez'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.f5mqhhm6ez'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.n7we668ostf'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.n7we668ostf'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.s3bcqtrmc9q'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.s3bcqtrmc9q'
+}
+[Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.6mc56schqzu'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.6mc56schqzu'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.zuflosyu0mj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/pascalrettig/Projects/playfulcoding/.next/static/development/_buildManifest.js.tmp.zuflosyu0mj'
+}
+
+> playfulcoding@0.1.0 dev
+> next dev --turbopack -H 0.0.0.0 -p 3065
+
+
+> playfulcoding@0.1.0 dev
+> next dev --turbopack -H 0.0.0.0 -p 3065
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3065
+   - Network:      http://0.0.0.0:3065
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 721ms
+ ○ Compiling /project/[id] ...
+ ✓ Compiled /project/[id] in 1438ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-5-6 200 in 2088ms
+ ⚠ Cross origin request detected from 192.168.4.231 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-3-4 200 in 51ms
+ ✓ Compiled / in 175ms
+ GET / 200 in 218ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-13-14 200 in 76ms
+ GET / 200 in 68ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-3-4 200 in 68ms
+ GET / 200 in 69ms
+ ✓ Compiled in 108ms
+ ✓ Compiled /project/[id] in 40ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ GET /project/week-3-4 200 in 407ms
+ GET /project/week-3-4 200 in 507ms
+ ✓ Compiled /favicon.ico in 184ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 469ms
+ ✓ Compiled in 46ms
+ ⚠ Fast Refresh had to perform a full reload when ./src/components/Navigation.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:6:39)
+  4 |
+  5 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+> 6 |   const project = projectsData[params.id];
+    |                                       ^
+  7 |
+  8 |   if (!project) {
+  9 |     notFound();
+ ✓ Compiled in 41ms
+ GET /project/week-3-4 200 in 288ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 252ms
+ ✓ Compiled /project/[id] in 22ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:7:39)
+   5 |
+   6 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+>  7 |   const project = projectsData[params.id];
+     |                                       ^
+   8 |
+   9 |   if (!project) {
+  10 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:14:44)
+  12 |
+  13 |   return (
+> 14 |     <ProjectDetailClient projectId={params.id}>
+     |                                            ^
+  15 |       <div className="space-y-12">
+  16 |         {/* Project Header */}
+  17 |         <section className="relative overflow-hidden rounded-3xl bg-white/50 backdrop-blur-sm p-12 shadow-xl">
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/project/[id]/page.tsx:150:57)
+    at Array.map (<anonymous>)
+    at ProjectDetail (src/app/project/[id]/page.tsx:78:32)
+  148 |                       </div>
+  149 |                       <div className="flex-shrink-0">
+> 150 |                         <SubmitButton projectId={params.id} week={week.week} />
+      |                                                         ^
+  151 |                       </div>
+  152 |                     </div>
+  153 |                   </div>
+ GET /project/week-3-4 200 in 232ms
+
+> playfulcoding@0.1.0 dev
+> next dev --turbopack -H 0.0.0.0 -p 3065
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3065
+   - Network:      http://0.0.0.0:3065
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 701ms
+ ○ Compiling /project/[id] ...
+ ✓ Compiled /project/[id] in 1544ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:7:39)
+   5 |
+   6 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+>  7 |   const project = projectsData[params.id];
+     |                                       ^
+   8 |
+   9 |   if (!project) {
+  10 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:14:44)
+  12 |
+  13 |   return (
+> 14 |     <ProjectDetailClient projectId={params.id}>
+     |                                            ^
+  15 |       <div className="space-y-12">
+  16 |         {/* Project Header */}
+  17 |         <section className="relative overflow-hidden rounded-3xl bg-white/50 backdrop-blur-sm p-12 shadow-xl">
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/project/[id]/page.tsx:150:57)
+    at Array.map (<anonymous>)
+    at ProjectDetail (src/app/project/[id]/page.tsx:78:32)
+  148 |                       </div>
+  149 |                       <div className="flex-shrink-0">
+> 150 |                         <SubmitButton projectId={params.id} week={week.week} />
+      |                                                         ^
+  151 |                       </div>
+  152 |                     </div>
+  153 |                   </div>
+ GET /project/week-3-4 200 in 2216ms
+ ⚠ Cross origin request detected from 192.168.4.231 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 112ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 394ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:7:39)
+   5 |
+   6 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+>  7 |   const project = projectsData[params.id];
+     |                                       ^
+   8 |
+   9 |   if (!project) {
+  10 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:14:44)
+  12 |
+  13 |   return (
+> 14 |     <ProjectDetailClient projectId={params.id}>
+     |                                            ^
+  15 |       <div className="space-y-12">
+  16 |         {/* Project Header */}
+  17 |         <section className="relative overflow-hidden rounded-3xl bg-white/50 backdrop-blur-sm p-12 shadow-xl">
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/project/[id]/page.tsx:150:57)
+    at Array.map (<anonymous>)
+    at ProjectDetail (src/app/project/[id]/page.tsx:78:32)
+  148 |                       </div>
+  149 |                       <div className="flex-shrink-0">
+> 150 |                         <SubmitButton projectId={params.id} week={week.week} />
+      |                                                         ^
+  151 |                       </div>
+  152 |                     </div>
+  153 |                   </div>
+ GET /project/week-10-12 200 in 101ms
+ ⚠ Fast Refresh had to perform a full reload when ./src/components/Navigation.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:7:39)
+   5 |
+   6 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+>  7 |   const project = projectsData[params.id];
+     |                                       ^
+   8 |
+   9 |   if (!project) {
+  10 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:14:44)
+  12 |
+  13 |   return (
+> 14 |     <ProjectDetailClient projectId={params.id}>
+     |                                            ^
+  15 |       <div className="space-y-12">
+  16 |         {/* Project Header */}
+  17 |         <section className="relative overflow-hidden rounded-3xl bg-white/50 backdrop-blur-sm p-12 shadow-xl">
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/project/[id]/page.tsx:150:57)
+    at Array.map (<anonymous>)
+    at ProjectDetail (src/app/project/[id]/page.tsx:78:32)
+  148 |                       </div>
+  149 |                       <div className="flex-shrink-0">
+> 150 |                         <SubmitButton projectId={params.id} week={week.week} />
+      |                                                         ^
+  151 |                       </div>
+  152 |                     </div>
+  153 |                   </div>
+ ✓ Compiled in 66ms
+ GET /project/week-10-12 200 in 346ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 256ms
+
+> playfulcoding@0.1.0 dev
+> next dev --turbopack -H 0.0.0.0 -p 3065
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3065
+   - Network:      http://0.0.0.0:3065
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 745ms
+
+> playfulcoding@0.1.0 dev
+> next dev --turbopack -H 0.0.0.0 -p 3065
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3065
+   - Network:      http://0.0.0.0:3065
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 764ms
+ ○ Compiling /project/[id] ...
+ ✓ Compiled /project/[id] in 1718ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:7:39)
+   5 |
+   6 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+>  7 |   const project = projectsData[params.id];
+     |                                       ^
+   8 |
+   9 |   if (!project) {
+  10 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:14:44)
+  12 |
+  13 |   return (
+> 14 |     <ProjectDetailClient projectId={params.id}>
+     |                                            ^
+  15 |       <div className="space-y-12">
+  16 |         {/* Project Header */}
+  17 |         <section className="relative overflow-hidden rounded-3xl bg-white/50 backdrop-blur-sm p-12 shadow-xl">
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/project/[id]/page.tsx:150:57)
+    at Array.map (<anonymous>)
+    at ProjectDetail (src/app/project/[id]/page.tsx:78:32)
+  148 |                       </div>
+  149 |                       <div className="flex-shrink-0">
+> 150 |                         <SubmitButton projectId={params.id} week={week.week} />
+      |                                                         ^
+  151 |                       </div>
+  152 |                     </div>
+  153 |                   </div>
+ GET /project/week-10-12 200 in 2409ms
+ ⚠ Cross origin request detected from 192.168.4.231 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 131ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 391ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:7:39)
+   5 |
+   6 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+>  7 |   const project = projectsData[params.id];
+     |                                       ^
+   8 |
+   9 |   if (!project) {
+  10 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:14:44)
+  12 |
+  13 |   return (
+> 14 |     <ProjectDetailClient projectId={params.id}>
+     |                                            ^
+  15 |       <div className="space-y-12">
+  16 |         {/* Project Header */}
+  17 |         <section className="relative overflow-hidden rounded-3xl bg-white/50 backdrop-blur-sm p-12 shadow-xl">
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/project/[id]/page.tsx:150:57)
+    at Array.map (<anonymous>)
+    at ProjectDetail (src/app/project/[id]/page.tsx:78:32)
+  148 |                       </div>
+  149 |                       <div className="flex-shrink-0">
+> 150 |                         <SubmitButton projectId={params.id} week={week.week} />
+      |                                                         ^
+  151 |                       </div>
+  152 |                     </div>
+  153 |                   </div>
+ GET /project/week-10-12 200 in 247ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 269ms
+ ✓ Compiled / in 317ms
+ GET / 200 in 475ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:7:39)
+   5 |
+   6 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+>  7 |   const project = projectsData[params.id];
+     |                                       ^
+   8 |
+   9 |   if (!project) {
+  10 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:14:44)
+  12 |
+  13 |   return (
+> 14 |     <ProjectDetailClient projectId={params.id}>
+     |                                            ^
+  15 |       <div className="space-y-12">
+  16 |         {/* Project Header */}
+  17 |         <section className="relative overflow-hidden rounded-3xl bg-white/50 backdrop-blur-sm p-12 shadow-xl">
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/project/[id]/page.tsx:150:57)
+    at Array.map (<anonymous>)
+    at ProjectDetail (src/app/project/[id]/page.tsx:78:32)
+  148 |                       </div>
+  149 |                       <div className="flex-shrink-0">
+> 150 |                         <SubmitButton projectId={params.id} week={week.week} />
+      |                                                         ^
+  151 |                       </div>
+  152 |                     </div>
+  153 |                   </div>
+ GET /project/week-1-2 200 in 87ms
+ ⚠ Fast Refresh had to perform a full reload when ./src/components/Navigation.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload when ./src/components/Navigation.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 157ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:7:39)
+   5 |
+   6 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+>  7 |   const project = projectsData[params.id];
+     |                                       ^
+   8 |
+   9 |   if (!project) {
+  10 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:14:44)
+  12 |
+  13 |   return (
+> 14 |     <ProjectDetailClient projectId={params.id}>
+     |                                            ^
+  15 |       <div className="space-y-12">
+  16 |         {/* Project Header */}
+  17 |         <section className="relative overflow-hidden rounded-3xl bg-white/50 backdrop-blur-sm p-12 shadow-xl">
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/project/[id]/page.tsx:150:57)
+    at Array.map (<anonymous>)
+    at ProjectDetail (src/app/project/[id]/page.tsx:78:32)
+  148 |                       </div>
+  149 |                       <div className="flex-shrink-0">
+> 150 |                         <SubmitButton projectId={params.id} week={week.week} />
+      |                                                         ^
+  151 |                       </div>
+  152 |                     </div>
+  153 |                   </div>
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:7:39)
+   5 |
+   6 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+>  7 |   const project = projectsData[params.id];
+     |                                       ^
+   8 |
+   9 |   if (!project) {
+  10 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:14:44)
+  12 |
+  13 |   return (
+> 14 |     <ProjectDetailClient projectId={params.id}>
+     |                                            ^
+  15 |       <div className="space-y-12">
+  16 |         {/* Project Header */}
+  17 |         <section className="relative overflow-hidden rounded-3xl bg-white/50 backdrop-blur-sm p-12 shadow-xl">
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/project/[id]/page.tsx:150:57)
+    at Array.map (<anonymous>)
+    at ProjectDetail (src/app/project/[id]/page.tsx:78:32)
+  148 |                       </div>
+  149 |                       <div className="flex-shrink-0">
+> 150 |                         <SubmitButton projectId={params.id} week={week.week} />
+      |                                                         ^
+  151 |                       </div>
+  152 |                     </div>
+  153 |                   </div>
+ GET /project/week-1-2 200 in 829ms
+ GET /project/week-10-12 200 in 839ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 347ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 264ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:7:39)
+   5 |
+   6 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+>  7 |   const project = projectsData[params.id];
+     |                                       ^
+   8 |
+   9 |   if (!project) {
+  10 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:14:44)
+  12 |
+  13 |   return (
+> 14 |     <ProjectDetailClient projectId={params.id}>
+     |                                            ^
+  15 |       <div className="space-y-12">
+  16 |         {/* Project Header */}
+  17 |         <section className="relative overflow-hidden rounded-3xl bg-white/50 backdrop-blur-sm p-12 shadow-xl">
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/project/[id]/page.tsx:150:57)
+    at Array.map (<anonymous>)
+    at ProjectDetail (src/app/project/[id]/page.tsx:78:32)
+  148 |                       </div>
+  149 |                       <div className="flex-shrink-0">
+> 150 |                         <SubmitButton projectId={params.id} week={week.week} />
+      |                                                         ^
+  151 |                       </div>
+  152 |                     </div>
+  153 |                   </div>
+ GET /project/week-3-4 200 in 94ms
+ ⚠ Fast Refresh had to perform a full reload when ./src/components/Navigation.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload when ./src/components/Navigation.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:7:39)
+   5 |
+   6 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+>  7 |   const project = projectsData[params.id];
+     |                                       ^
+   8 |
+   9 |   if (!project) {
+  10 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:14:44)
+  12 |
+  13 |   return (
+> 14 |     <ProjectDetailClient projectId={params.id}>
+     |                                            ^
+  15 |       <div className="space-y-12">
+  16 |         {/* Project Header */}
+  17 |         <section className="relative overflow-hidden rounded-3xl bg-white/50 backdrop-blur-sm p-12 shadow-xl">
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/project/[id]/page.tsx:150:57)
+    at Array.map (<anonymous>)
+    at ProjectDetail (src/app/project/[id]/page.tsx:78:32)
+  148 |                       </div>
+  149 |                       <div className="flex-shrink-0">
+> 150 |                         <SubmitButton projectId={params.id} week={week.week} />
+      |                                                         ^
+  151 |                       </div>
+  152 |                     </div>
+  153 |                   </div>
+ ✓ Compiled in 41ms
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:7:39)
+   5 |
+   6 | export default function ProjectDetail({ params }: { params: { id: string } }) {
+>  7 |   const project = projectsData[params.id];
+     |                                       ^
+   8 |
+   9 |   if (!project) {
+  10 |     notFound();
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at ProjectDetail (src/app/project/[id]/page.tsx:14:44)
+  12 |
+  13 |   return (
+> 14 |     <ProjectDetailClient projectId={params.id}>
+     |                                            ^
+  15 |       <div className="space-y-12">
+  16 |         {/* Project Header */}
+  17 |         <section className="relative overflow-hidden rounded-3xl bg-white/50 backdrop-blur-sm p-12 shadow-xl">
+Error: Route "/project/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/project/[id]/page.tsx:150:57)
+    at Array.map (<anonymous>)
+    at ProjectDetail (src/app/project/[id]/page.tsx:78:32)
+  148 |                       </div>
+  149 |                       <div className="flex-shrink-0">
+> 150 |                         <SubmitButton projectId={params.id} week={week.week} />
+      |                                                         ^
+  151 |                       </div>
+  152 |                     </div>
+  153 |                   </div>
+ GET /project/week-3-4 200 in 419ms
+ GET /project/week-1-2 200 in 413ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 315ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 284ms
+
+> playfulcoding@0.1.0 dev
+> next dev --turbopack -H 0.0.0.0 -p 3065
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3065
+   - Network:      http://0.0.0.0:3065
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 749ms
