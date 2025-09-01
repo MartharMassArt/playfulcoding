@@ -1,16 +1,17 @@
 import { createClient } from '@supabase/supabase-js';
 import { Submission } from './supabase';
 
-// Server-side Supabase client with service role key for admin operations
+// Server-side Supabase client using anon key
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseServiceKey = process.env.NEXT_SECRET_SUPABASE_KEY!;
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 
-if (!supabaseUrl || !supabaseServiceKey) {
+if (!supabaseUrl || !supabaseAnonKey) {
   throw new Error('Missing Supabase environment variables');
 }
 
-// This client bypasses RLS and should only be used server-side
-export const supabaseAdmin = createClient(supabaseUrl, supabaseServiceKey, {
+// Server-side client using anon key - respects RLS policies
+// Only approved submissions will be visible due to RLS
+export const supabaseAdmin = createClient(supabaseUrl, supabaseAnonKey, {
   auth: {
     persistSession: false,
   },
@@ -51,17 +52,20 @@ export function getEmbedUrl(url: string): string | null {
     
     // p5.js editor URLs
     if (urlObj.hostname === 'editor.p5js.org') {
-      // URLs are already in the format: https://editor.p5js.org/username/full/sketchId
-      // Just return as-is if it contains '/full/'
-      if (urlObj.pathname.includes('/full/')) {
-        return url;
-      }
-      // Convert https://editor.p5js.org/username/sketches/id to full URL
-      const pathParts = urlObj.pathname.split('/');
+      // Convert https://editor.p5js.org/username/full/sketchId or
+      // https://editor.p5js.org/username/sketches/sketchId
+      // to https://preview.p5js.org/username/embed/sketchId
+      const pathParts = urlObj.pathname.split('/').filter(p => p);
       if (pathParts.length >= 3) {
-        const username = pathParts[1];
+        const username = pathParts[0];
+        // Get sketch ID from either /full/ or /sketches/ paths
         const sketchId = pathParts[pathParts.length - 1];
-        return `https://editor.p5js.org/${username}/full/${sketchId}`;
+        return `https://preview.p5js.org/${username}/embed/${sketchId}`;
+      } else if (pathParts.length >= 2) {
+        // Handle URLs like /username/sketchId
+        const username = pathParts[0];
+        const sketchId = pathParts[1];
+        return `https://preview.p5js.org/${username}/embed/${sketchId}`;
       }
     }
     

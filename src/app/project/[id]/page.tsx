@@ -1,14 +1,19 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { projectsData } from '@/lib/projectData';
+import { getApprovedSubmissions } from '@/lib/supabase-server';
 import ProjectDetailClient, { SubmitButton } from '@/components/ProjectDetailClient';
+import ProjectEmbed from '@/components/ProjectEmbed';
 
-export default function ProjectDetail({ params }: { params: { id: string } }) {
+export default async function ProjectDetail({ params }: { params: { id: string } }) {
   const project = projectsData[params.id];
 
   if (!project) {
     notFound();
   }
+
+  // Fetch approved submissions for this project
+  const submissions = await getApprovedSubmissions(params.id);
 
   return (
     <ProjectDetailClient projectId={params.id}>
@@ -212,7 +217,7 @@ export default function ProjectDetail({ params }: { params: { id: string } }) {
           </section>
         ))}
 
-        {/* Student Gallery Placeholder */}
+        {/* Student Gallery */}
         <section>
           <h2 className="text-3xl font-bold text-center mb-8">
             <span className="bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent">
@@ -220,24 +225,27 @@ export default function ProjectDetail({ params }: { params: { id: string } }) {
             </span>
           </h2>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Placeholder cards */}
-            {[1, 2, 3].map((i) => (
-              <div key={i} className="bg-white/60 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg hover-lift">
-                <div className="aspect-video bg-gradient-to-br from-purple-100 to-pink-100 flex items-center justify-center">
-                  <span className="text-4xl opacity-50">🎨</span>
-                </div>
-                <div className="p-4">
-                  <h3 className="font-semibold text-gray-800 mb-1">Student Project {i}</h3>
-                  <p className="text-sm text-gray-600">Coming soon...</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          
-          <p className="text-center text-gray-500 mt-8">
-            Student submissions will appear here once the submission system is active.
-          </p>
+          {submissions.length > 0 ? (
+            <div className="space-y-6">
+              {submissions.map((submission) => (
+                <ProjectEmbed
+                  key={submission.id}
+                  url={submission.submission_url}
+                  title={submission.title}
+                  studentName={submission.student_name}
+                  description={submission.description}
+                  week={submission.week || undefined}
+                  createdAt={submission.created_at!}
+                />
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-12 bg-white/60 backdrop-blur-sm rounded-2xl">
+              <span className="text-4xl mb-4 block">🎨</span>
+              <p className="text-gray-600 text-lg">No approved submissions yet.</p>
+              <p className="text-gray-500 mt-2">Be the first to submit your work!</p>
+            </div>
+          )}
         </section>
 
         {/* Navigation */}

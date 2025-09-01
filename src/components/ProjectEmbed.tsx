@@ -101,7 +101,8 @@ export default function ProjectEmbed({
         <iframe
           src={embedUrl}
           title={title}
-          className="w-full h-[600px]"
+          className="w-full"
+          style={{ height: '600px', minHeight: '400px' }}
           loading="lazy"
           onLoad={() => setIsLoading(false)}
           allow="accelerometer; camera; encrypted-media; geolocation; gyroscope; microphone; midi; clipboard-read; clipboard-write"
