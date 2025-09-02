@@ -226,7 +226,7 @@ export default async function ProjectDetail({ params }: { params: { id: string }
           </h2>
           
           {submissions.length > 0 ? (
-            <div className="space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
               {submissions.map((submission) => (
                 <ProjectEmbed
                   key={submission.id}
