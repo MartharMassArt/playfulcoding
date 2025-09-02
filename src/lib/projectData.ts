@@ -31,7 +31,7 @@ export const projectsData: Record<string, ProjectDetails> = {
     weeks: '1-2',
     dates: 'Sept 3 & Sept 10',
     title: 'Animated Type + Icons',
-    description: 'Create bouncing, spinning, color-changing icons',
+    description: 'HTML & CSS Motion Basics',
     tools: ['HTML', 'CSS', 'CodePen'],
     color: 'from-purple-400 to-pink-400',
     badgeColor: 'border-purple-300 bg-purple-50 text-purple-700',
@@ -109,7 +109,7 @@ export const projectsData: Record<string, ProjectDetails> = {
     tools: ['HTML', 'CSS', 'p5.js'],
     color: 'from-pink-400 to-red-400',
     badgeColor: 'border-pink-300 bg-pink-50 text-pink-700',
-    emoji: '🎨',
+    emoji: '🫧',
     focus: 'Exploring the expressive potential of letterforms through code',
     weeklyContent: [
       {
@@ -183,7 +183,7 @@ export const projectsData: Record<string, ProjectDetails> = {
     tools: ['p5.js'],
     color: 'from-orange-400 to-yellow-400',
     badgeColor: 'border-orange-300 bg-orange-50 text-orange-700',
-    emoji: '🔷',
+    emoji: '🪩',
     focus: 'Creative exploration, iteration, rhythm, and composition using code',
     weeklyContent: [
       {
@@ -247,13 +247,13 @@ export const projectsData: Record<string, ProjectDetails> = {
     id: 'week-7-9',
     weeks: '7-9',
     dates: 'Oct 15, 22 & 29',
-    title: 'Generative Branding & Animated Logos',
-    subtitle: 'Dynamic Data Logos',
+    title: 'Living Logos',
+    subtitle: 'Generative Branding & Animated Identities',
     description: 'Logos that move, evolve, and respond',
     tools: ['p5.js'],
     color: 'from-green-400 to-teal-400',
     badgeColor: 'border-green-300 bg-green-50 text-green-700',
-    emoji: '🚀',
+    emoji: '🌱',
     focus: 'Motion, variation, and real-time adaptability by pulling from live data sources',
     weeklyContent: [
       {
@@ -430,7 +430,7 @@ export const projectsData: Record<string, ProjectDetails> = {
     weeks: '13-14',
     dates: 'Nov 26 & Dec 3',
     title: 'Final Integration & Showcase',
-    description: 'Combine logos, patterns, and posters into a portfolio',
+    description: 'Portfolio + Publishing',
     tools: ['HTML', 'CSS', 'p5.js'],
     color: 'from-indigo-400 to-purple-400',
     badgeColor: 'border-indigo-300 bg-indigo-50 text-indigo-700',
