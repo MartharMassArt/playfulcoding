@@ -1,76 +1,7 @@
 import Link from 'next/link';
+import { projectsData } from '@/lib/projectData';
 
-const projects = [
-  {
-    id: 'week-1-2',
-    weeks: '1-2',
-    dates: 'Sept 3 & Sept 10',
-    title: 'Animated Type + Icons',
-    description: 'Create bouncing, spinning, color-changing icons',
-    tools: ['HTML', 'CSS'],
-    color: 'from-purple-400 to-pink-400',
-    badgeColor: 'border-purple-300 bg-purple-50 text-purple-700',
-    emoji: '✨',
-  },
-  {
-    id: 'week-3-4',
-    weeks: '3-4',
-    dates: 'Sept 17 & Sept 24',
-    title: 'Playful Type Lab',
-    subtitle: 'Type Distortion Machine',
-    description: 'Make letters stretch, morph, and respond',
-    tools: ['HTML', 'CSS', 'p5.js'],
-    color: 'from-pink-400 to-red-400',
-    badgeColor: 'border-pink-300 bg-pink-50 text-pink-700',
-    emoji: '🎨',
-  },
-  {
-    id: 'week-5-6',
-    weeks: '5-6',
-    dates: 'Oct 1 & Oct 8',
-    title: 'Pattern Party',
-    subtitle: 'Generative Patterns',
-    description: 'Generate dynamic patterns for branding & textures',
-    tools: ['p5.js'],
-    color: 'from-orange-400 to-yellow-400',
-    badgeColor: 'border-orange-300 bg-orange-50 text-orange-700',
-    emoji: '🔷',
-  },
-  {
-    id: 'week-7-9',
-    weeks: '7-9',
-    dates: 'Oct 15, 22 & 29',
-    title: 'Generative Branding & Animated Logos',
-    description: 'Logos that move, evolve, and respond',
-    tools: ['p5.js'],
-    color: 'from-green-400 to-teal-400',
-    badgeColor: 'border-green-300 bg-green-50 text-green-700',
-    emoji: '🚀',
-  },
-  {
-    id: 'week-10-12',
-    weeks: '10-12',
-    dates: 'Nov 5, 12 & 19',
-    title: 'Playable Posters',
-    subtitle: 'Interactive Experiments',
-    description: 'Posters that react to mouse/keyboard',
-    tools: ['p5.js'],
-    color: 'from-blue-400 to-indigo-400',
-    badgeColor: 'border-blue-300 bg-blue-50 text-blue-700',
-    emoji: '🎮',
-  },
-  {
-    id: 'week-13-14',
-    weeks: '13-14',
-    dates: 'Nov 26 & Dec 3',
-    title: 'Final Integration & Showcase',
-    description: 'Combine logos, patterns, and posters into a portfolio',
-    tools: ['HTML', 'CSS', 'p5.js'],
-    color: 'from-indigo-400 to-purple-400',
-    badgeColor: 'border-indigo-300 bg-indigo-50 text-indigo-700',
-    emoji: '🎉',
-  },
-];
+const projects = Object.values(projectsData);
 
 export default function Home() {
   return (
