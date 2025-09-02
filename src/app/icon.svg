@@ -1,38 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#9333EA;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#EC4899;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#FB923C;stop-opacity:1" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg28"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="22.46875"
+     inkscape:cx="15.977747"
+     inkscape:cy="16"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg28" />
+  <defs
+     id="defs16">
+    <linearGradient
+       id="grad1"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#9333EA;stop-opacity:1"
+         id="stop9" />
+      <stop
+         offset="50%"
+         style="stop-color:#EC4899;stop-opacity:1"
+         id="stop11" />
+      <stop
+         offset="100%"
+         style="stop-color:#FB923C;stop-opacity:1"
+         id="stop13" />
     </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#grad1"
+       id="linearGradient283"
+       x1="-14.252082"
+       y1="-5.2141503"
+       x2="-3.8237819"
+       y2="5.2141503"
+       gradientTransform="matrix(-0.71919314,0,0,1.3904471,-13.000038,0)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
-  
-  <!-- White background -->
-  <rect width="32" height="32" fill="white"/>
-  
+  <!-- White background with gradient border -->
+  <circle
+     cx="16"
+     cy="16"
+     r="14"
+     fill="white"
+     stroke="url(#grad1)"
+     stroke-width="2"
+     id="circle18" />
   <!-- Code symbol </> -->
-  <g transform="translate(16, 16)">
+  <g
+     transform="translate(16, 16)"
+     id="g26">
     <!-- Left bracket < -->
-    <path d="M -10 -7 L -4 0 L -10 7" 
-          fill="none" 
-          stroke="url(#grad1)" 
-          stroke-width="3" 
-          stroke-linecap="round" 
-          stroke-linejoin="round"/>
-    
+    <path
+       d="M -4.0000377,-6 -8.2152501,-0.94174514 -9.0000377,0 l 5,6"
+       fill="none"
+       stroke="url(#grad1)"
+       stroke-width="2.5"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path20"
+       sodipodi:nodetypes="cccc"
+       style="stroke:url(#linearGradient283)" />
     <!-- Slash / -->
-    <path d="M -1 8 L 1 -8" 
-          fill="none" 
-          stroke="url(#grad1)" 
-          stroke-width="3" 
-          stroke-linecap="round"/>
-    
+    <path
+       d="M -1 7 L 1 -7"
+       fill="none"
+       stroke="url(#grad1)"
+       stroke-width="2.5"
+       stroke-linecap="round"
+       id="path22" />
     <!-- Right bracket > -->
-    <path d="M 10 -7 L 4 0 L 10 7" 
-          fill="none" 
-          stroke="url(#grad1)" 
-          stroke-width="3" 
-          stroke-linecap="round" 
-          stroke-linejoin="round"/>
+    <path
+       d="M 4 -6 L 9 0 L 4 6"
+       fill="none"
+       stroke="url(#grad1)"
+       stroke-width="2.5"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path24" />
   </g>
 </svg>
