@@ -93,6 +93,7 @@ export const projectsData: Record<string, ProjectDetails> = {
           { title: 'Easings.net – try different motion feels', url: 'https://easings.net/' }
         ],
         resources: [
+          { title: 'UI & Icon Slides', url: 'https://docs.google.com/presentation/d/1obNsRtT6ChDqXUprZQ0Mb5VowYyBE195aHHtSRTvbkg/edit?usp=sharing' },
           { title: 'CSS Transitions – MDN', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/transition' },
           { title: 'CSS Transform – MDN', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/transform' },
           { title: 'CSS Animations Cheat Sheet', url: 'https://www.justinaguilar.com/animations/' },
