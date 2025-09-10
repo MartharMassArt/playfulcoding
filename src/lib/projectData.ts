@@ -62,7 +62,7 @@ export const projectsData: Record<string, ProjectDetails> = {
           { title: 'Patatap – playful sounds + visuals', url: 'https://patatap.com/' }
         ],
         resources: [
-          { title: 'Intro Slides', url: 'https://docs.google.com/presentation/d/1AHdgQFQDDVJD2IRQ8lMqoN0IHOpjGHBOqS2qe48T0R8/edit?usp=sharing' },
+          { title: '👾Intro Slides', url: 'https://docs.google.com/presentation/d/1AHdgQFQDDVJD2IRQ8lMqoN0IHOpjGHBOqS2qe48T0R8/edit?usp=sharing' },
           { title: 'HTML Basics – MDN', url: 'https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML' },
           { title: 'CSS First Steps – MDN', url: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps' },
           { title: 'CSS Keyframes Guide – MDN', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes' },
@@ -88,16 +88,16 @@ export const projectsData: Record<string, ProjectDetails> = {
           homework: 'Create and post 3 polished micro-animations — one for each category (Loading, Success, Error/Feedback)'
         },
         inspiration: [
-          { title: 'LottieFiles Animated Icons', url: 'https://lottiefiles.com/animated-icons' },
+          { title: 'LottieFiles Animated Icons', url: 'https://lottiefiles.com/free-animations/animated-icons?utm_source=chatgpt.com' },
           { title: 'Dropbox Brand Motion', url: 'https://dropbox.design/' },
           { title: 'Easings.net – try different motion feels', url: 'https://easings.net/' }
         ],
         resources: [
-          { title: 'Animated Type + Icons for UX/UI', url: 'https://docs.google.com/presentation/d/1obNsRtT6ChDqXUprZQ0Mb5VowYyBE195aHHtSRTvbkg/edit?usp=sharing' },
+          { title: '👾 Week 2 Slides', url: 'https://docs.google.com/presentation/d/1obNsRtT6ChDqXUprZQ0Mb5VowYyBE195aHHtSRTvbkg/edit?usp=sharing' },
           { title: 'CSS Transitions – MDN', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/transition' },
           { title: 'CSS Transform – MDN', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/transform' },
           { title: 'CSS Animations Cheat Sheet', url: 'https://www.justinaguilar.com/animations/' },
-          { title: 'Accessibility: Prefers Reduced Motion', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion' }
+          { title: 'Animista', url: 'https://animista.net/' }
         ]
       }
     ]
