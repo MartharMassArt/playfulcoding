@@ -20,18 +20,26 @@ interface StudentGalleryProps {
 }
 
 export default function StudentGallery({ submissions, weeklyContent, projectColor }: StudentGalleryProps) {
-  // Get unique weeks that have submissions
-  const weeksWithSubmissions = weeklyContent
-    .map(w => w.week)
-    .filter(week => submissions.some(s => s.week === week));
+  // For multi-week projects, submissions use "Week 1" or "Week 2" to indicate
+  // which week of the PROJECT they belong to, not the calendar week
+  const projectWeeks = ['Week 1', 'Week 2'];
 
-  // Set initial active tab to first week with submissions, or first week if none have submissions
+  // Get unique weeks that have submissions (using Week 1/Week 2 convention)
+  // Submissions without a week are treated as Week 1
+  const weeksWithSubmissions = projectWeeks
+    .filter(week => submissions.some(s => (s.week || 'Week 1') === week));
+
+  // Set initial active tab to first week with submissions, or "Week 1" if none
   const [activeWeekTab, setActiveWeekTab] = useState<string>(
-    weeksWithSubmissions[0] || weeklyContent[0]?.week || ''
+    weeksWithSubmissions[0] || 'Week 1'
   );
 
   // Filter submissions based on selected week
-  const filteredSubmissions = submissions.filter(s => s.week === activeWeekTab);
+  // If a submission has no week set, default it to Week 1
+  const filteredSubmissions = submissions.filter(s => {
+    const submissionWeek = s.week || 'Week 1';
+    return submissionWeek === activeWeekTab;
+  });
 
   return (
     <section>
@@ -42,24 +50,24 @@ export default function StudentGallery({ submissions, weeklyContent, projectColo
       </h2>
 
       {/* Week Tabs for Gallery */}
-      {weeklyContent.length > 0 && (
+      {weeklyContent.length > 1 && (
         <div className="flex justify-center mb-8">
           <div className="inline-flex bg-white/60 backdrop-blur-sm rounded-full p-1 shadow-lg">
-            {weeklyContent.map((week) => {
-              const hasSubmissions = submissions.some(s => s.week === week.week);
+            {projectWeeks.map((week) => {
+              const hasSubmissions = submissions.some(s => (s.week || 'Week 1') === week);
               if (!hasSubmissions) return null;
 
               return (
                 <button
-                  key={week.week}
-                  onClick={() => setActiveWeekTab(week.week)}
+                  key={week}
+                  onClick={() => setActiveWeekTab(week)}
                   className={`px-4 py-2 rounded-full font-medium transition-all ${
-                    activeWeekTab === week.week
+                    activeWeekTab === week
                       ? `bg-gradient-to-r ${projectColor} text-white shadow-md`
                       : 'text-gray-600 hover:text-gray-900 hover:bg-white/50'
                   }`}
                 >
-                  {week.week}
+                  {week}
                 </button>
               );
             })}
