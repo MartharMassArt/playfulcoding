@@ -96,9 +96,9 @@ export const projectsData: Record<string, ProjectDetails> = {
         ],
         resources: [
           { title: '👾 Week 2 Slides', url: 'https://docs.google.com/presentation/d/1obNsRtT6ChDqXUprZQ0Mb5VowYyBE195aHHtSRTvbkg/edit?usp=sharing' },
-          { title: 'CSS Transitions – MDN', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/transition' },
-          { title: 'CSS Transform – MDN', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/transform' },
-          { title: 'CSS Animations Cheat Sheet', url: 'https://www.justinaguilar.com/animations/' },
+          { title: 'CSS Transitions –MDN', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/transition' },
+          { title: 'CSS Transform –MDN', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/transform' },
+          { title: 'CSS Animations Cheat Sheet ', url: 'https://www.justinaguilar.com/animations/' },
           { title: 'Animista', url: 'https://animista.net/' }
         ]
       }
@@ -124,20 +124,20 @@ export const projectsData: Record<string, ProjectDetails> = {
         activities: {
           demo: [
             { text: '👾 Week 3 Slides', url: 'https://docs.google.com/presentation/d/1pGxA8plCqmpWzpLOYOs5mSqMvzNK2CF3qkVjK0CtoEc/edit?usp=sharing' },
-            { text: 'Introduce text() in p5.js', url: 'https://codepen.io/marthar/pen/pvjBqrP' },
-            { text: 'Use transformations (scale, rotate, translate) and effects (sin, noise, random)', url: 'https://codepen.io/marthar/pen/empobyy' },
-            { text: 'Apply colors, outlines, or effects to letters', url: 'https://codepen.io/marthar/pen/dPYLwdr' }
+            { text: 'Introduce text() in p5.js', url: 'https://editor.p5js.org/merettig/sketches/sr6F6x_f3' },
+            { text: 'Use transformations (scale, rotate, translate) and effects (sin, noise, random)', url: 'https://editor.p5js.org/merettig/sketches/sr6F6x_f3' },
+            { text: 'Apply colors, outlines, or effects to letters', url: 'https://editor.p5js.org/merettig/full/sr6F6x_f3' }
           ],
 
           prompts: [
-            'Make a letter look spikey (sharp points, angles)',
             'Make a letter look wavy (sinusoidal distortions)',
+            'Make a letter look spikey (sharp points, angles)',
             'Make a letter pixelated (block/grid patterns)',
             'Make a letter multicolored (gradient fills or color cycling)',
             'Create a hybrid letterform — part readable, part abstract'
           ],
-          lab: 'Start from provided template (text() + sliders) and explore distortion ideas',
-          homework: 'Post 3–5 unique letterform experiments to the class site'
+          lab: 'Start from provided template (text() + sliders) and explore distortion ideas, use Claude for help this week',
+          homework: 'Post 5 unique letterform experiments to the class site'
         },
         inspiration: [
           { title: 'Generative Typography Experiments', url: 'https://www.generativetypography.com/' },
