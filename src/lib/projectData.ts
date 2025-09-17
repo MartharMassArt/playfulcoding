@@ -15,7 +15,7 @@ export interface ProjectDetails {
     date: string;
     title: string;
     activities: {
-      demo?: string[];
+      demo?: (string | { text: string; url: string })[];
       prompts?: string[];
       lab?: string;
       homework?: string;
@@ -45,8 +45,8 @@ export const projectsData: Record<string, ProjectDetails> = {
         title: 'First Animated Type + Icons',
         activities: {
           demo: [
-            'Write your first HTML tags and CSS rules',
-            'Animate text with a simple keyframe'
+            { text: 'Write your first HTML tags and CSS rules', url: 'https://codepen.io/pen?template=dyNzJYg' },
+            { text: 'Animate text with a simple keyframe', url: 'https://codepen.io/pen?template=poRqwGL' }
           ],
           prompts: [
             'Animate a breakfast word + icon (☕ Coffee, 🥯 Bagel, 🍳 Egg)',
@@ -75,9 +75,9 @@ export const projectsData: Record<string, ProjectDetails> = {
         title: 'Animated Type + Icons for UX/UI',
         activities: {
           demo: [
-            'Create a loading spinner',
-            'Create a hover effect on a button',
-            'Create a logo reveal'
+            { text: 'Create a loading spinner', url: 'https://codepen.io/collection/HtAne' },
+            { text: 'Create a hover effect on a button', url: 'https://codepen.io/pen?template=MWJBBNp' },
+            { text: 'Create a logo reveal', url: 'https://codepen.io/pen?template=QWdNRWV' }
           ],
           prompts: [
             'Loading Experience: Animate a loader (dots, bar, spinner) that communicates a mood — calm, chaotic, or playful',

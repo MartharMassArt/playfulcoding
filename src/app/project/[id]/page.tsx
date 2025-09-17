@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { projectsData } from '@/lib/projectData';
 import { getApprovedSubmissions } from '@/lib/supabase-server';
 import ProjectDetailClient, { SubmitButton } from '@/components/ProjectDetailClient';
-import ProjectEmbed from '@/components/ProjectEmbed';
+import StudentGallery from '@/components/StudentGallery';
 
 export default async function ProjectDetail({ params }: { params: { id: string } }) {
   const project = projectsData[params.id];
@@ -110,7 +110,21 @@ export default async function ProjectDetail({ params }: { params: { id: string }
                       {week.activities.demo.map((item, i) => (
                         <li key={i} className="flex items-start">
                           <span className="text-pink-500 mr-2 mt-1">•</span>
-                          <span className="text-gray-700">{item}</span>
+                          {typeof item === 'string' ? (
+                            <span className="text-gray-700">{item}</span>
+                          ) : (
+                            <a
+                              href={item.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-purple-600 hover:text-pink-600 underline-offset-2 hover:underline transition-colors inline-flex items-center gap-1"
+                            >
+                              {item.text}
+                              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                              </svg>
+                            </a>
+                          )}
                         </li>
                       ))}
                     </ul>
@@ -217,36 +231,12 @@ export default async function ProjectDetail({ params }: { params: { id: string }
           </section>
         ))}
 
-        {/* Student Gallery */}
-        <section>
-          <h2 className="text-3xl font-bold text-center mb-8">
-            <span className="bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent">
-              Student Gallery
-            </span>
-          </h2>
-          
-          {submissions.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-              {submissions.map((submission) => (
-                <ProjectEmbed
-                  key={submission.id}
-                  url={submission.submission_url}
-                  title={submission.title}
-                  studentName={submission.student_name}
-                  description={submission.description}
-                  week={submission.week || undefined}
-                  createdAt={submission.created_at!}
-                />
-              ))}
-            </div>
-          ) : (
-            <div className="text-center py-12 bg-white/60 backdrop-blur-sm rounded-2xl">
-              <span className="text-4xl mb-4 block">🎨</span>
-              <p className="text-gray-600 text-lg">No approved submissions yet.</p>
-              <p className="text-gray-500 mt-2">Be the first to submit your work!</p>
-            </div>
-          )}
-        </section>
+        {/* Student Gallery with Week Tabs */}
+        <StudentGallery
+          submissions={submissions}
+          weeklyContent={project.weeklyContent}
+          projectColor={project.color}
+        />
 
         {/* Navigation */}
         <section className="flex justify-between items-center pt-8 border-t border-gray-200">
