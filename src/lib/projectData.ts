@@ -45,8 +45,9 @@ export const projectsData: Record<string, ProjectDetails> = {
         title: 'First Animated Type + Icons',
         activities: {
           demo: [
-            { text: 'Write your first HTML tags and CSS rules', url: 'https://codepen.io/pen?template=dyNzJYg' },
-            { text: 'Animate text with a simple keyframe', url: 'https://codepen.io/pen?template=poRqwGL' }
+            { text: '👾Intro Slides', url: 'https://docs.google.com/presentation/d/1AHdgQFQDDVJD2IRQ8lMqoN0IHOpjGHBOqS2qe48T0R8/edit?usp=sharing' },
+            { text: 'Animate text with a simple keyframe', url: 'https://codepen.io/pen?template=poRqwGL' },
+            { text: 'Write your first HTML tags and CSS rules', url: 'https://codepen.io/pen?template=dyNzJYg' }
           ],
           prompts: [
             'Animate a breakfast word + icon (☕ Coffee, 🥯 Bagel, 🍳 Egg)',
@@ -75,9 +76,10 @@ export const projectsData: Record<string, ProjectDetails> = {
         title: 'Animated Type + Icons for UX/UI',
         activities: {
           demo: [
-            { text: 'Create a loading spinner', url: 'https://codepen.io/collection/HtAne' },
-            { text: 'Create a hover effect on a button', url: 'https://codepen.io/pen?template=MWJBBNp' },
-            { text: 'Create a logo reveal', url: 'https://codepen.io/pen?template=QWdNRWV' }
+            { text: '👾 Week 2 Slides', url: 'https://docs.google.com/presentation/d/1obNsRtT6ChDqXUprZQ0Mb5VowYyBE195aHHtSRTvbkg/edit?usp=sharing' },
+            { text: 'Create a loading spinner', url: 'https://codepen.io/marthar/pen/pvjBqrP' },
+            { text: 'Create a hover effect on a button', url: 'https://codepen.io/marthar/pen/empobyy' },
+            { text: 'Create a logo reveal', url: 'https://codepen.io/marthar/pen/dPYLwdr' }
           ],
           prompts: [
             'Loading Experience: Animate a loader (dots, bar, spinner) that communicates a mood — calm, chaotic, or playful',
@@ -121,10 +123,12 @@ export const projectsData: Record<string, ProjectDetails> = {
         title: 'Letterform Playground',
         activities: {
           demo: [
-            'Introduce text() in p5.js',
-            'Use transformations (scale, rotate, translate) and effects (sin, noise, random)',
-            'Apply colors, outlines, or effects to letters'
+            { text: '👾 Week 3 Slides', url: 'https://docs.google.com/presentation/d/1pGxA8plCqmpWzpLOYOs5mSqMvzNK2CF3qkVjK0CtoEc/edit?usp=sharing' },
+            { text: 'Introduce text() in p5.js', url: 'https://codepen.io/marthar/pen/pvjBqrP' },
+            { text: 'Use transformations (scale, rotate, translate) and effects (sin, noise, random)', url: 'https://codepen.io/marthar/pen/empobyy' },
+            { text: 'Apply colors, outlines, or effects to letters', url: 'https://codepen.io/marthar/pen/dPYLwdr' }
           ],
+
           prompts: [
             'Make a letter look spikey (sharp points, angles)',
             'Make a letter look wavy (sinusoidal distortions)',
