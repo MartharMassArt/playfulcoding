@@ -20,17 +20,18 @@ interface StudentGalleryProps {
 }
 
 export default function StudentGallery({ submissions, weeklyContent, projectColor }: StudentGalleryProps) {
-  const [activeWeekTab, setActiveWeekTab] = useState<string | 'all'>('all');
-
   // Get unique weeks that have submissions
   const weeksWithSubmissions = weeklyContent
     .map(w => w.week)
     .filter(week => submissions.some(s => s.week === week));
 
+  // Set initial active tab to first week with submissions, or first week if none have submissions
+  const [activeWeekTab, setActiveWeekTab] = useState<string>(
+    weeksWithSubmissions[0] || weeklyContent[0]?.week || ''
+  );
+
   // Filter submissions based on selected week
-  const filteredSubmissions = activeWeekTab === 'all'
-    ? submissions
-    : submissions.filter(s => s.week === activeWeekTab);
+  const filteredSubmissions = submissions.filter(s => s.week === activeWeekTab);
 
   return (
     <section>
@@ -41,19 +42,9 @@ export default function StudentGallery({ submissions, weeklyContent, projectColo
       </h2>
 
       {/* Week Tabs for Gallery */}
-      {weeksWithSubmissions.length > 0 && (
+      {weeklyContent.length > 0 && (
         <div className="flex justify-center mb-8">
           <div className="inline-flex bg-white/60 backdrop-blur-sm rounded-full p-1 shadow-lg">
-            <button
-              onClick={() => setActiveWeekTab('all')}
-              className={`px-4 py-2 rounded-full font-medium transition-all ${
-                activeWeekTab === 'all'
-                  ? `bg-gradient-to-r ${projectColor} text-white shadow-md`
-                  : 'text-gray-600 hover:text-gray-900 hover:bg-white/50'
-              }`}
-            >
-              All Weeks
-            </button>
             {weeklyContent.map((week) => {
               const hasSubmissions = submissions.some(s => s.week === week.week);
               if (!hasSubmissions) return null;
@@ -94,9 +85,7 @@ export default function StudentGallery({ submissions, weeklyContent, projectColo
         <div className="text-center py-12 bg-white/60 backdrop-blur-sm rounded-2xl">
           <span className="text-4xl mb-4 block">🎨</span>
           <p className="text-gray-600 text-lg">
-            {activeWeekTab === 'all'
-              ? 'No approved submissions yet.'
-              : `No submissions for ${activeWeekTab} yet.`}
+            No submissions for {activeWeekTab} yet.
           </p>
           <p className="text-gray-500 mt-2">Be the first to submit your work!</p>
         </div>
