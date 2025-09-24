@@ -159,7 +159,9 @@ export const projectsData: Record<string, ProjectDetails> = {
             { text: '👾 Week 4 Slides', url: 'https://docs.google.com/presentation/d/1BGTV5DfXgg7A05tjh93nNXKCaxDAJnbFt0nQorgUoKQ/edit?usp=sharing' },
             { text: 'Add sliders (createSlider) to control distortion', url: 'https://editor.p5js.org/merettig/sketches/t-10bdgaU' },
             { text: 'Export as PNG', url: 'https://editor.p5js.org/merettig/sketches/dnKnacaha' },
-            { text: 'Export as SVG', url: 'https://editor.p5js.org/merettig/sketches/T_BTyTyF4' }
+            { text: 'Export as SVG', url: 'https://editor.p5js.org/merettig/sketches/T_BTyTyF4' },
+            { text: 'P5.js Reference', url: 'https://p5js.org/reference/' }
+            
         
           ],
           prompts: [
