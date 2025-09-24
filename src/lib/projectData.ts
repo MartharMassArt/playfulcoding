@@ -156,13 +156,17 @@ export const projectsData: Record<string, ProjectDetails> = {
         title: 'Type Export + Reuse',
         activities: {
           demo: [
-            'Add sliders (createSlider) to control distortion',
-            'Export designs as SVG (vector) or PNG (bitmap)'
+            { text: '👾 Week 4 Slides', url: 'https://docs.google.com/presentation/d/1BGTV5DfXgg7A05tjh93nNXKCaxDAJnbFt0nQorgUoKQ/edit?usp=sharing' },
+            { text: 'Add sliders (createSlider) to control distortion', url: 'https://editor.p5js.org/merettig/sketches/t-10bdgaU' },
+            { text: 'Export as PNG', url: 'https://editor.p5js.org/merettig/sketches/dnKnacaha' },
+            { text: 'Export as SVG', url: 'https://editor.p5js.org/merettig/sketches/T_BTyTyF4' }
+        
           ],
           prompts: [
             'Build a mini "type machine" where sliders control distortion style',
-            'Export your favorite letterform as SVG',
-            'Export letterforms as PNG'
+            'Explore different ways to manipulate the type',
+            'Use a new font',
+            'Imagine you were creating assets for a brand'
           ],
           lab: 'Start from Letter Playground code and add sliders and export buttons',
           homework: 'Post your final Type Distortion Machine'
