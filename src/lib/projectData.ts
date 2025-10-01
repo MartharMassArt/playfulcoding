@@ -212,9 +212,10 @@ export const projectsData: Record<string, ProjectDetails> = {
             { text: 'Pallettes', url: 'https://editor.p5js.org/merettig/sketches/v9ombfaGp' }
           ],
           prompts: [
-            'Monochromatic: Build a pattern using only tints and shades of a single brand color',
-            'Mirror/Reflect: Create symmetry by flipping your asset horizontally or vertically',
-            'Texture Overlay: Use very small repeats of the logo/icon to create a texture'
+            'Make something symmetrical',
+            'Make something monotone',
+            'Layer a logo with shapes', 
+            'Play with drastic sizes'
           ],
           homework: 'Post 4 final pattern exports with short captions explaining the design approach'
         },
