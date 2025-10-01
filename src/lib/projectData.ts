@@ -205,9 +205,11 @@ export const projectsData: Record<string, ProjectDetails> = {
         title: 'Brand Pattern Explorations',
         activities: {
           demo: [
-            'Import a logo or brand asset into p5.js',
-            'Use a simple grid (for-loops) to repeat the logo',
-            'Recolor with brand palettes and experiment with transformations'
+            { text: '👾 Week 5 Slides', url: 'https://docs.google.com/presentation/d/1kYoY9ZkmoEl9F63gFoOv2cIIxg0QjRSjOqysV0sDBiw/edit?usp=sharing' },
+            { text: 'Load a png', url: 'https://editor.p5js.org/merettig/sketches/N2WTNzhRo' },
+            { text: 'Load an svg', url: 'https://editor.p5js.org/merettig/sketches/QZsRZbV8g' },
+            { text: 'Loops', url: 'https://editor.p5js.org/merettig/sketches/9hzEanWiM' }
+            { text: 'Pallettes', url: 'https://editor.p5js.org/merettig/sketches/v9ombfaGp' }
           ],
           prompts: [
             'Monochromatic: Build a pattern using only tints and shades of a single brand color',
