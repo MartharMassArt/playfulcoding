@@ -236,9 +236,13 @@ export const projectsData: Record<string, ProjectDetails> = {
         title: 'Build Your Own Pattern Generator',
         activities: {
           demo: [
-            'Add sliders to control density, rotation, and palette',
-            'Create a tile preview window for seamless repeats',
-            'Show how to export both full patterns and tiles'
+            { text: '👾 Week 6 Slides', url: 'https://docs.google.com/presentation/d/1nUSwPReAnJfWvpOS93WBM8kjkSL9oJwiMupEA-5vgjY/edit?usp=sharing' },
+            { text: '*NEW*Create a tile preview for seamless repeats', url: 'https://editor.p5js.org/merettig/sketches/dnKnacaha' },
+            'Reuse these',
+            { text: 'Add sliders (createSlider) to control distortion', url: 'https://editor.p5js.org/merettig/sketches/t-10bdgaU' },
+            { text: 'Export as PNG', url: 'https://editor.p5js.org/merettig/sketches/dnKnacaha' },
+            { text: 'Export as SVG', url: 'https://editor.p5js.org/merettig/sketches/T_BTyTyF4' },
+            { text: 'Pallettes', url: 'https://editor.p5js.org/merettig/sketches/v9ombfaGp' }
           ],
           prompts: [
             'Extend one Week 5 exploration into a pattern machine with at least 3 controls',
