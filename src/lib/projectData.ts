@@ -245,9 +245,9 @@ export const projectsData: Record<string, ProjectDetails> = {
             { text: 'Pallettes', url: 'https://editor.p5js.org/merettig/sketches/v9ombfaGp' }
           ],
           prompts: [
-            'Extend one Week 5 exploration into a pattern machine with at least 3 controls',
-            'Add a live tile preview that demonstrates repeatability',
-            'Export a set of tiles or full patterns as PNGs'
+            'Create a new pattern machine with at least 3 controls with clear labels',
+            'Add a live tile preview that shows a repeating grid',
+            'Add the ability to export a set of tiles or full patterns as PNGs'
           ],
           lab: 'Build your own generative design tool for patterns',
           homework: 'Post a short video or GIF of your generator in action + 3 exported patterns'
