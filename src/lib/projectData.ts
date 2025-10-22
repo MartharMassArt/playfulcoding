@@ -266,110 +266,127 @@ export const projectsData: Record<string, ProjectDetails> = {
   'week-7-9': {
     id: 'week-7-9',
     weeks: '7-9',
-    dates: 'Oct 15, 22 & 29',
-    title: 'Living Logos',
-    subtitle: 'Generative Branding & Animated Identities',
-    description: 'Logos that move, evolve, and respond',
-    tools: ['p5.js'],
-    color: 'from-green-400 to-teal-400',
-    badgeColor: 'border-green-300 bg-green-50 text-green-700',
-    emoji: '🌱',
-    focus: 'Motion, variation, and real-time adaptability by pulling from live data sources',
+    dates: 'Oct 22, 29 & Nov 5',
+    title: 'Soft Launch',
+    description: 'Build + Publish Your Own Site',
+    tools: ['HTML', 'CSS', 'Github'],
+    color: 'from-indigo-400 to-purple-400',
+    badgeColor: 'border-indigo-300 bg-indigo-50 text-indigo-700',
+    emoji: '🚀',
+    focus: 'Creating a cohesive portfolio showcasing all projects',
     weeklyContent: [
       {
         week: 'Week 7',
-        date: 'Oct 15',
-        title: 'Playful Logo Variations',
+        date: 'Oct 22',
+        title: 'Designing in the Browser',
         activities: {
           demo: [
-            'Import or draw a simple logo (SVG or shapes)',
-            'Animate with randomness (random(), noise()) and time (frameCount)',
-            'Use motion, color, and transformation to express brand qualities'
+            { text: '👾 Week 7 Slides', url: 'https://docs.google.com/presentation/d/1QpODayRZuSZkMGfcgXQhLi2knW8nNUVOd_dUcnlEcsM/edit?usp=sharing' },
+            'We will Cover: HTML Structure, Linking CSS, Previwing Locally',
+            'HELPFUL FROM PREVIOUS CLASS',
+            { text: '👾Intro Slides', url: 'https://docs.google.com/presentation/d/1AHdgQFQDDVJD2IRQ8lMqoN0IHOpjGHBOqS2qe48T0R8/edit?usp=sharing' },
+            { text: '👾 Week 2 Slides', url: 'https://docs.google.com/presentation/d/1obNsRtT6ChDqXUprZQ0Mb5VowYyBE195aHHtSRTvbkg/edit?usp=sharing' }
           ],
           prompts: [
-            'Gradient Shift – Animate between two or more brand colors',
-            'Pixelated – Break the logo into a grid or pixel blocks',
-            'Scaling Pulse – Have the logo expand and contract rhythmically',
-            'Wave Motion – Bend or ripple the logo along a sine wave',
-            'Repeating Echo – Duplicate the logo with delay',
-            'Pop-in/Pop-out – Animate parts appearing and disappearing',
-            'Motion Trail – Leave fading trails as the logo moves',
-            'Organic Morph – Curve, stretch, or melt the logo edges',
-            'Blur + Sharpen – Transition between clarity and fuzziness'
+            'Create your index.html and style.css',
+            'Try grid/flexbox layout',
+            'Add 1 image + custom colors',
+            'Change fonts + background',
+            'Preview it live'
           ],
-          lab: 'Explore at least 3 different variations using chosen prompts',
-          homework: 'Post at least 5 animated logo variations with short titles and concepts'
+          lab: 'complete the promps above',
+          homework: 'This will live on your computer this week, nothing to submit'
         },
-        inspiration: [
-          { title: 'DIA Studio Motion Identities', url: 'https://dia.tv/' },
-          { title: 'Moving Brands', url: 'https://movingbrands.com/work' },
-          { title: 'Animated Logos Collection', url: 'https://www.lottiefiles.com/featured' }
+         inspiration: [
+          { title: 'CSS Zen Garden', url: 'http://www.csszengarden.com/' },
+          { title: 'Awwwards Portfolios', url: 'https://www.awwwards.com/websites/portfolio/' },
+          { title: 'Designers on the Web – It’s Nice That', url: 'https://www.itsnicethat.com/tags/portfolio' },
+          { title: 'Made with Code', url: 'https://madewithcode.com/projects/' },
+          { title: 'PangramPangram Studio Portfolio', url: 'https://pangrampangram.com/pages/projects' },
+          { title: 'Portfolio Starter Inspiration (Figma Community)', url: 'https://www.figma.com/community/search?resource_type=files&query=portfolio' }
         ],
+
         resources: [
-          { title: 'p5.js Animation Basics', url: 'https://p5js.org/learn/animation.html' },
-          { title: 'Random() in p5.js', url: 'https://p5js.org/reference/#/p5/random' },
-          { title: 'Frame Count in p5.js', url: 'https://p5js.org/reference/#/p5/frameCount' }
+          { title: 'MDN: HTML Basics', url: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics' },
+          { title: 'MDN: CSS Layout – Grids and Flexbox', url: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout' },
+          { title: 'Flexbox Froggy', url: 'https://flexboxfroggy.com/' },
+          { title: 'Grid Garden', url: 'https://cssgridgarden.com/' },
+          { title: 'Google Fonts', url: 'https://fonts.google.com/' },
+          { title: 'Coolors Palette Generator', url: 'https://coolors.co/' },
+          { title: 'Contrast Checker', url: 'https://contrastchecker.com/' },
+          { title: 'Netlify Drop (Quick Hosting)', url: 'https://app.netlify.com/drop' },
+          { title: 'GitHub Pages Guide', url: 'https://pages.github.com/' },
+          { title: 'Canva Color Meanings', url: 'https://www.canva.com/colors/color-meanings/' }
         ]
       },
       {
         week: 'Week 8',
-        date: 'Oct 22',
-        title: 'Data-Driven Logos',
+        date: 'Oct 29',
+        title: 'Responsive Design',
         activities: {
           demo: [
-            'Introduce APIs and JSON',
-            'Use fetch() or loadJSON() in p5.js to connect to live dataset',
-            'Map simple values (e.g., temperature → color hue)'
+            'Review how Grid and Flexbox adapt to screen size',
+            'Introduce media queries for mobile-first design',
+            'Adjust typography and spacing using relative units (%, vw, rem)',
+            'Test layouts using Chrome DevTools device preview'
           ],
           prompts: [
-            'Pick a dataset (weather, time, Pokémon, trivia, art, etc.)',
-            'Map a continuous value (e.g., number → size, rotation, hue)',
-            'Map a discrete state (e.g., condition → background, icon)',
-            'Optional: invent a new logo to better match your dataset'
+            'Redesign your Week 1 layout to work on both desktop and mobile',
+            'Decide what should stack, resize, or hide on smaller screens',
+            'Create consistent rhythm and type scale across viewports',
+            'Optional: add a simple navigation bar that adapts on mobile'
           ],
-          lab: 'Extend one Week 7 motion sketch into a dynamic data-driven logo',
-          homework: 'Post your first working Data Logo with explanation'
+          lab: 'Make your Launch Site responsive using media queries and flexible units',
+          homework: 'Publish a before/after screenshot of your responsive layout and reflect on what changed'
         },
         inspiration: [
-          { title: 'Weather API (wttr.in)', url: 'https://wttr.in/Boston?format=j1' },
-          { title: 'ISS Location API', url: 'http://api.open-notify.org/iss-now.json' },
-          { title: 'Sunrise/Sunset API', url: 'https://api.sunrise-sunset.org/json' }
+          { title: 'Responsive Web Design Showcase', url: 'https://responsivedesign.is/examples/' },
+          { title: 'Francesco Michelini Portfolio', url: 'https://francescomichelini.com/' },
+          { title: 'IDEO.com Responsive Layout', url: 'https://www.ideo.com/' },
+          { title: 'Awwwards Responsive Websites', url: 'https://www.awwwards.com/websites/responsive-design/' }
         ],
         resources: [
-          { title: 'MDN Fetch + JSON', url: 'https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch' },
-          { title: 'p5.js loadJSON', url: 'https://p5js.org/reference/#/p5/loadJSON' },
-          { title: 'p5.js map()', url: 'https://p5js.org/reference/#/p5/map' }
+          { title: 'MDN: Intro to Responsive Design', url: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design' },
+          { title: 'CSS Tricks: A Complete Guide to Flexbox', url: 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/' },
+          { title: 'CSS Tricks: A Complete Guide to Grid', url: 'https://css-tricks.com/snippets/css/complete-guide-grid/' },
+          { title: 'Google Fonts Responsive Typography Tips', url: 'https://fonts.google.com/knowledge' },
+          { title: 'Chrome DevTools Device Toolbar', url: 'https://developer.chrome.com/docs/devtools/device-mode/' }
         ]
-      },
+},
       {
         week: 'Week 9',
-        date: 'Oct 29',
-        title: 'Dynamic Identity Systems',
-        activities: {
-          demo: [
-            'Show examples of curated identity systems',
-            'Demonstrate how to present logos in context',
-            'Cover refinement: motion rules, easing, consistency'
-          ],
-          prompts: [
-            'Develop a family of 10+ data-responsive logos that feel connected',
-            'Show range: how the logo adapts to multiple data states',
-            'Create a landing demo page with key/legend explaining data mappings'
-          ],
-          lab: 'Refine your dynamic logo into a polished system',
-          homework: 'Post final Dynamic Data Identity Kit with landing page, legend, variations, and design note'
-        },
-        inspiration: [
-          { title: 'MIT Media Lab Identity', url: 'https://www.elischiff.com/blog/2014/8/6/the-new-mit-media-lab-identity' },
-          { title: 'DIA Studio', url: 'https://dia.tv/' },
-          { title: 'Generative Design Book', url: 'https://www.generative-gestaltung.de/2/' }
+        date: 'Nov 5',
+       title: 'Hosting with GitHub Pages',
+      activities: {
+        demo: [
+          'Create a GitHub account and set up a new repository',
+          'Use GitHub Desktop or VS Code to commit and push your files',
+          'Enable GitHub Pages and view your live site online',
+          'Write a simple README.md file with your project summary'
         ],
-        resources: [
-          { title: 'p5.js saveFrames', url: 'https://p5js.org/reference/#/p5/saveFrames' },
-          { title: 'p5.js Arrays', url: 'https://p5js.org/reference/#/p5/Array' },
-          { title: 'p5.js constrain()', url: 'https://p5js.org/reference/#/p5/constrain' }
-        ]
-      }
+        prompts: [
+          'Think of your Launch Site as a public portfolio space — what should the first impression feel like?',
+          'Add a title, short description, and preview image to your README.md',
+          'Test your live site on desktop and mobile — what looks different?',
+          'Optional: customize your GitHub Pages URL or try Netlify Drop for quick hosting'
+        ],
+        lab: 'Publish your Launch Site using GitHub Pages and share your live URL in class',
+        homework: 'Write a short reflection on what it feels like to see your design live on the web'
+      },
+      inspiration: [
+        { title: 'GitHub Student Portfolios', url: 'https://github.com/collections/student-developer-pack' },
+        { title: 'P5.js Showcase on GitHub Pages', url: 'https://p5js.org/community/' },
+        { title: 'Netlify Drop — Instant Hosting', url: 'https://app.netlify.com/drop' },
+        { title: 'Design Portfolios Hosted on GitHub Pages', url: 'https://github.com/topics/portfolio-website' }
+      ],
+      resources: [
+        { title: 'GitHub Pages Official Guide', url: 'https://pages.github.com/' },
+        { title: 'GitHub Desktop Tutorial', url: 'https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview' },
+        { title: 'Markdown Basics (README)', url: 'https://www.markdownguide.org/basic-syntax/' },
+        { title: 'MDN: How to Publish Your Website', url: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website' },
+        { title: 'Netlify vs GitHub Pages Overview', url: 'https://www.freecodecamp.org/news/github-pages-vs-netlify/' }
+      ]
+    }
     ]
   },
   'week-10-12': {
