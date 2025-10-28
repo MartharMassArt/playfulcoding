@@ -267,7 +267,7 @@ export const projectsData: Record<string, ProjectDetails> = {
     id: 'week-7-9',
     weeks: '7-9',
     dates: 'Oct 22, 29 & Nov 5',
-    title: 'Soft Launch',
+    title: 'BUILD IT!!!',
     description: 'Build + Publish Your Own Site',
     tools: ['HTML', 'CSS', 'Github'],
     color: 'from-indigo-400 to-purple-400',
