@@ -322,41 +322,42 @@ export const projectsData: Record<string, ProjectDetails> = {
       {
         week: 'Week 8',
         date: 'Oct 29',
-        title: 'Responsive Design',
+        title: 'GitHub & Responsive Design',
         activities: {
           demo: [
-            'Review how Grid and Flexbox adapt to screen size',
-            'Introduce media queries for mobile-first design',
-            'Adjust typography and spacing using relative units (%, vw, rem)',
-            'Test layouts using Chrome DevTools device preview'
+          { text: '👾 Week 8 Slides', url: 'https://docs.google.com/presentation/d/1mtkvQ4aURu_swCStW4qJ1g2uUOPa50QTH3eY5bIxBAk/edit?usp=sharing' },
+          { text: 'GitHub Desktop', url: 'https://desktop.github.com/download/' },
+          { text: 'Responsive Design', url: 'https://codepen.io/marthar/pen/bNEjZZV' }
           ],
           prompts: [
-            'Redesign your Week 1 layout to work on both desktop and mobile',
-            'Decide what should stack, resize, or hide on smaller screens',
-            'Create consistent rhythm and type scale across viewports',
-            'Optional: add a simple navigation bar that adapts on mobile'
+            'Make your Launch Site responsive using at least one media query',
+            'Use relative units to adjust type and spacing (convert px → rem/em)',
+            'Stack or simplify your layout for small screens (~700px)',
+            'Optional: add a simple navigation bar that changes layout on mobile'
           ],
-          lab: 'Make your Launch Site responsive using media queries and flexible units',
-          homework: 'Publish a before/after screenshot of your responsive layout and reflect on what changed'
+          lab: 'Redesign your Launch Site for both desktop and mobile views using media queries and flexible units.',
+          homework: 'Push your updated responsive site to GitHub Pages and submit your live URL to the class website.'
         },
         inspiration: [
           { title: 'Responsive Web Design Showcase', url: 'https://responsivedesign.is/examples/' },
-          { title: 'Francesco Michelini Portfolio', url: 'https://francescomichelini.com/' },
-          { title: 'IDEO.com Responsive Layout', url: 'https://www.ideo.com/' },
-          { title: 'Awwwards Responsive Websites', url: 'https://www.awwwards.com/websites/responsive-design/' }
+          { title: 'IDEO.com – Adaptive Layouts', url: 'https://www.ideo.com/' },
+          { title: 'Awwwards: Responsive Websites', url: 'https://www.awwwards.com/websites/responsive-design/' },
+          { title: 'Media Queries Gallery Archive', url: 'https://mediaqueri.es/' }
         ],
         resources: [
-          { title: 'MDN: Intro to Responsive Design', url: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design' },
-          { title: 'CSS Tricks: A Complete Guide to Flexbox', url: 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/' },
-          { title: 'CSS Tricks: A Complete Guide to Grid', url: 'https://css-tricks.com/snippets/css/complete-guide-grid/' },
-          { title: 'Google Fonts Responsive Typography Tips', url: 'https://fonts.google.com/knowledge' },
-          { title: 'Chrome DevTools Device Toolbar', url: 'https://developer.chrome.com/docs/devtools/device-mode/' }
+          { title: 'MDN: Responsive Design Basics', url: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design' },
+          { title: 'CSS-Tricks: Complete Guide to Media Queries', url: 'https://css-tricks.com/a-complete-guide-to-css-media-queries/' },
+          { title: 'CSS-Tricks: Complete Guide to Flexbox', url: 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/' },
+          { title: 'CSS-Tricks: Complete Guide to Grid', url: 'https://css-tricks.com/snippets/css/complete-guide-grid/' },
+          { title: 'Chrome DevTools Device Toolbar', url: 'https://developer.chrome.com/docs/devtools/device-mode/' },
+          { title: 'Flexbox Froggy (practice game)', url: 'https://flexboxfroggy.com/' },
+          { title: 'Grid Garden (practice game)', url: 'https://cssgridgarden.com/' }
         ]
 },
       {
         week: 'Week 9',
         date: 'Nov 5',
-       title: 'Hosting with GitHub Pages',
+       title: 'Finish & Polish + GitHub Pages',
       activities: {
         demo: [
           'Create a GitHub account and set up a new repository',
@@ -386,7 +387,7 @@ export const projectsData: Record<string, ProjectDetails> = {
         { title: 'MDN: How to Publish Your Website', url: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website' },
         { title: 'Netlify vs GitHub Pages Overview', url: 'https://www.freecodecamp.org/news/github-pages-vs-netlify/' }
       ]
-    }
+      }
     ]
   },
   'week-10-12': {
