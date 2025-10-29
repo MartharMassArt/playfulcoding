@@ -360,19 +360,23 @@ export const projectsData: Record<string, ProjectDetails> = {
        title: 'Finish & Polish + GitHub Pages',
       activities: {
         demo: [
-          'Create a GitHub account and set up a new repository',
-          'Use GitHub Desktop or VS Code to commit and push your files',
-          'Enable GitHub Pages and view your live site online',
-          'Write a simple README.md file with your project summary'
+          'Add a favicon (PNG/SVG/ICO) and verify it on your live site',
+          'Set a clear <title> and meta description for search/sharing',
+          'Add basic Open Graph tags (title, description, preview image)',
+          'Improve readability with responsive type (em/rem or clamp())',
+          'Add link/btn hover + focus states; enable smooth scrolling',
+          'Quick QA pass: contrast, image sizing, link paths, mobile test',
+          'Commit, push, and confirm changes on GitHub Pages'
         ],
         prompts: [
-          'Think of your Launch Site as a public portfolio space — what should the first impression feel like?',
-          'Add a title, short description, and preview image to your README.md',
-          'Test your live site on desktop and mobile — what looks different?',
-          'Optional: customize your GitHub Pages URL or try Netlify Drop for quick hosting'
+          'Refine hierarchy and spacing so desktop and mobile both feel intentional',
+          'Add a favicon and update <title> + meta description to match your voice',
+          'Create an OG preview image and wire up Open Graph tags',
+          'Audit nav and links: clear labels, hover/focus states, no dead links',
+          'Optional: add a custom 404.html or a lightweight “About this site” section in README'
         ],
-        lab: 'Publish your Launch Site using GitHub Pages and share your live URL in class',
-        homework: 'Write a short reflection on what it feels like to see your design live on the web'
+        lab: 'Polish your Launch Site, update metadata (favicon, title, description, OG), then commit, push, and verify everything on GitHub Pages.',
+        homework: 'Submit your live URL if it has changed from last week'
       },
       inspiration: [
         { title: 'GitHub Student Portfolios', url: 'https://github.com/collections/student-developer-pack' },
