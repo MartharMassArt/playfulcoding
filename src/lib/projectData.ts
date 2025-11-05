@@ -362,7 +362,7 @@ export const projectsData: Record<string, ProjectDetails> = {
         demo: [
           { text: '👾 Week 9 Slides', url: 'https://docs.google.com/presentation/d/1A389giY8ePw_G2XZU3hkcCVHzWuiNYWRZlOtLfpj5hA/edit?usp=sharing' },
           { text: 'Metatags', url: 'https://metatags.io/' },
-          { text: 'Responsive Design', url: 'https://codepen.io/marthar/pen/bNEjZZV' }
+          { text: 'Check Contrast', url: 'https://www.siegemedia.com/contrast-ratio' }
           ]
         prompts: [
           'Refine hierarchy and spacing so desktop and mobile both feel intentional',
