@@ -360,14 +360,10 @@ export const projectsData: Record<string, ProjectDetails> = {
        title: 'Finish & Polish + GitHub Pages',
       activities: {
         demo: [
-          'Add a favicon (PNG/SVG/ICO) and verify it on your live site',
-          'Set a clear <title> and meta description for search/sharing',
-          'Add basic Open Graph tags (title, description, preview image)',
-          'Improve readability with responsive type (em/rem or clamp())',
-          'Add link/btn hover + focus states; enable smooth scrolling',
-          'Quick QA pass: contrast, image sizing, link paths, mobile test',
-          'Commit, push, and confirm changes on GitHub Pages'
-        ],
+          { text: '👾 Week 9 Slides', url: 'https://docs.google.com/presentation/d/1A389giY8ePw_G2XZU3hkcCVHzWuiNYWRZlOtLfpj5hA/edit?usp=sharing' },
+          { text: 'Metatags', url: 'https://metatags.io/' },
+          { text: 'Responsive Design', url: 'https://codepen.io/marthar/pen/bNEjZZV' }
+          ]
         prompts: [
           'Refine hierarchy and spacing so desktop and mobile both feel intentional',
           'Add a favicon and update <title> + meta description to match your voice',
