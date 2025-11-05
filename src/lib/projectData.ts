@@ -365,7 +365,6 @@ export const projectsData: Record<string, ProjectDetails> = {
           { text: 'Check Contrast', url: 'https://www.siegemedia.com/contrast-ratio' }
           ]
         prompts: [
-          'Refine hierarchy and spacing so desktop and mobile both feel intentional',
           'Add a favicon and update <title> + meta description to match your voice',
           'Create an OG preview image and wire up Open Graph tags',
           'Audit nav and links: clear labels, hover/focus states, no dead links',
