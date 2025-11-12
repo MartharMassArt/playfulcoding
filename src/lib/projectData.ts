@@ -389,128 +389,196 @@ export const projectsData: Record<string, ProjectDetails> = {
       }
     ]
   },
-  'week-10-12': {
-    id: 'week-10-12',
-    weeks: '10-12',
-    dates: 'Nov 5, 12 & 19',
-    title: 'Playable Posters',
-    subtitle: 'Interactive Experiments',
-    description: 'Posters that react to mouse/keyboard',
-    tools: ['p5.js'],
-    color: 'from-blue-400 to-indigo-400',
-    badgeColor: 'border-blue-300 bg-blue-50 text-blue-700',
-    emoji: '🎮',
-    focus: 'Mapping user interaction (mouse, keyboard, sound, webcam) to type, color, and composition',
-    weeklyContent: [
-      {
-        week: 'Week 10',
-        date: 'Nov 5',
-        title: 'Interactive Poster Playgrounds',
-        activities: {
-          demo: [
-            'Map mouse position to size, color, or position of poster elements',
-            'Introduce basic keyboard events (keyPressed())'
-          ],
-          prompts: [
-            'Poster that changes color as the mouse moves',
-            'Type that scales based on mouse distance',
-            'Elements that rotate following the cursor',
-            'Hidden messages revealed on hover',
-            'Keyboard-triggered animations'
-          ],
-          lab: 'Create interactive poster prototypes',
-          homework: 'Post 3 interactive poster experiments'
-        }
+  'week-10': {
+  id: 'week-10',
+  weeks: '10',
+  dates: 'Nov 12',
+  title: 'Figma → GitHub Launch Site',
+  subtitle: 'Design, Code & Publish',
+  description: 'Translate a Figma design into a live website and publish it with GitHub Pages.',
+  tools: ['Figma', 'HTML', 'CSS', 'GitHub Pages'],
+  color: 'from-emerald-400 to-green-400',
+  badgeColor: 'border-green-300 bg-green-50 text-green-700',
+  emoji: '🚀',
+  focus: 'Move from visual design to browser layout and prep for animated, data-connected projects.',
+  weeklyContent: [
+    {
+      week: 'Week 10',
+      date: 'Nov 12',
+      title: 'From Figma to Code',
+      activities: {
+        demo: [
+          { text: '👾 Week 10 Slides', url: 'https://docs.google.com/presentation/d/1nxzmU1KVfhNotp9RfbR9IBvPhTGJHUtAMLKRqf7g_os/edit?usp=sharing' },
+          { text: 'Figma', url: 'https://www.figma.com' },
+          'Make a basic page in Figma',
+          'New Repository in Github',
+          'Commit & Push'
+        ],
+        prompts: [
+          'Can you launch a site in 30minutes?',
+          'Make a one page website for a new company',
+          'Push AI to the limit',
+          'Have figma help with the design',
+          'Make it live'
+        ],
+        lab: 'Use AI to come up with your company idea - platform of your choice. Have Figma help with the design. What horrors or magic can you create in 30 minutes?',
+        homework: 'Submit your live github link below'
       },
-      {
-        week: 'Week 11',
-        date: 'Nov 12',
-        title: 'Advanced Interactions',
-        activities: {
-          demo: [
-            'Sound-reactive visuals',
-            'Webcam integration',
-            'Multi-touch interactions'
-          ],
-          prompts: [
-            'Create a poster that responds to sound input',
-            'Design elements that react to webcam motion',
-            'Build multi-layered interactive compositions'
-          ],
-          lab: 'Experiment with advanced input methods',
-          homework: 'Develop one fully interactive poster system'
-        }
+      inspiration: [
+        { title: 'CSS Zen Garden', url: 'http://www.csszengarden.com/' },
+        { title: 'Awwwards Portfolios', url: 'https://www.awwwards.com/websites/portfolio/' },
+        { title: 'Designers on the Web – It’s Nice That', url: 'https://www.itsnicethat.com/tags/portfolio' }
+      ],
+      resources: [
+        { title: 'MDN HTML Basics', url: 'https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML' },
+        { title: 'MDN CSS Layout', url: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout' },
+        { title: 'Flexbox Froggy', url: 'https://flexboxfroggy.com/' },
+        { title: 'Grid Garden', url: 'https://cssgridgarden.com/' },
+        { title: 'Google Fonts', url: 'https://fonts.google.com/' },
+        { title: 'Coolors Palette Generator', url: 'https://coolors.co/' }
+      ]
+    }
+  ]
+},
+  'week-11-12': {
+  id: 'week-11-12',
+  weeks: '11-12',
+  dates: 'Nov 19 & Nov 26',
+  title: 'Living Logos',
+  subtitle: 'Generative Branding & Animated Identities',
+  description: 'Logos that move, evolve, and respond.',
+  tools: ['p5.js'],
+  color: 'from-green-400 to-teal-400',
+  badgeColor: 'border-green-300 bg-green-50 text-green-700',
+  emoji: '🌱',
+  focus: 'Motion, variation, and real-time adaptability using simple data.',
+  weeklyContent: [
+    {
+      week: 'Week 11',
+      date: 'Nov 19',
+      title: 'Data-Driven Logos',
+      activities: {
+        demo: [
+          'Introduce APIs and JSON',
+          'Use fetch() or loadJSON() in p5.js to connect to a live dataset',
+          'Map values to color, size, rotation, or layout'
+        ],
+        prompts: [
+          'Pick a dataset. Weather, time, games, trivia, art.',
+          'Map one continuous value. Number to size or hue.',
+          'Map one discrete state. Condition to background or icon.'
+        ],
+        lab: 'Extend a motion sketch into a dynamic data logo.',
+        homework: 'Post your first working Data Logo with a short note on the mapping.'
       },
-      {
-        week: 'Week 12',
-        date: 'Nov 19',
-        title: 'Polish & Present',
-        activities: {
-          demo: [
-            'Optimization techniques',
-            'Export and documentation methods',
-            'Presentation strategies'
-          ],
-          prompts: [
-            'Refine your best interactive poster',
-            'Create documentation showing all states',
-            'Prepare presentation materials'
-          ],
-          lab: 'Final polish and optimization',
-          homework: 'Submit final interactive poster with documentation'
-        }
-      }
-    ]
-  },
-  'week-13-14': {
-    id: 'week-13-14',
-    weeks: '13-14',
-    dates: 'Nov 26 & Dec 3',
-    title: 'Final Integration & Showcase',
-    description: 'Portfolio + Publishing',
-    tools: ['HTML', 'CSS', 'p5.js'],
-    color: 'from-indigo-400 to-purple-400',
-    badgeColor: 'border-indigo-300 bg-indigo-50 text-indigo-700',
-    emoji: '🎉',
-    focus: 'Creating a cohesive portfolio showcasing all projects',
-    weeklyContent: [
-      {
-        week: 'Week 13',
-        date: 'Nov 26',
-        title: 'Portfolio Development',
-        activities: {
-          demo: [
-            'Portfolio structure and navigation',
-            'Project documentation best practices',
-            'Responsive design considerations'
-          ],
-          prompts: [
-            'Organize all projects into categories',
-            'Write project descriptions and process notes',
-            'Design a cohesive visual system for your portfolio'
-          ],
-          lab: 'Build portfolio structure',
-          homework: 'Complete portfolio draft with all projects'
-        }
+      inspiration: [
+        { title: 'Weather API (wttr.in)', url: 'https://wttr.in/Boston?format=j1' },
+        { title: 'ISS Location API', url: 'http://api.open-notify.org/iss-now.json' },
+        { title: 'Sunrise/Sunset API', url: 'https://api.sunrise-sunset.org/json' }
+      ],
+      resources: [
+        { title: 'MDN Fetch + JSON', url: 'https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch' },
+        { title: 'p5.js loadJSON', url: 'https://p5js.org/reference/#/p5/loadJSON' },
+        { title: 'p5.js map()', url: 'https://p5js.org/reference/#/p5/map' }
+      ]
+    },
+    {
+      week: 'Week 12',
+      date: 'Nov 26',
+      title: 'Dynamic Identity Systems',
+      activities: {
+        demo: [
+          'Curate variations into a system',
+          'Present logos in context',
+          'Refine motion rules and easing'
+        ],
+        prompts: [
+          'Build a family of 10+ data-responsive logos that feel connected',
+          'Show range across multiple data states',
+          'Create a landing page with a clear legend'
+        ],
+        lab: 'Refine your dynamic logo into a coherent system.',
+        homework: 'Post a Dynamic Data Identity Kit. Landing page, legend, variations, and a design note.'
       },
-      {
-        week: 'Week 14',
-        date: 'Dec 3',
-        title: 'Final Showcase',
-        activities: {
-          demo: [
-            'Presentation techniques',
-            'Live demonstration strategies'
-          ],
-          prompts: [
-            'Prepare 5-minute presentation of your work',
-            'Select best projects to highlight',
-            'Practice live demonstrations'
-          ],
-          lab: 'Final presentations and critique',
-          homework: 'Submit final portfolio and reflection'
-        }
-      }
-    ]
-  }
+      inspiration: [
+        { title: 'DIA Studio Motion Identities', url: 'https://dia.tv/' },
+        { title: 'MIT Media Lab Identity (overview)', url: 'https://www.elischiff.com/blog/2014/8/6/the-new-mit-media-lab-identity' },
+        { title: 'Generative Design Book', url: 'https://www.generative-gestaltung.de/2/' }
+      ],
+      resources: [
+        { title: 'p5.js saveFrames', url: 'https://p5js.org/reference/#/p5/saveFrames' },
+        { title: 'p5.js Arrays', url: 'https://p5js.org/reference/#/p5/Array' },
+        { title: 'p5.js constrain()', url: 'https://p5js.org/reference/#/p5/constrain' }
+      ]
+    }
+  ]
+},
+  'week-13': {
+  id: 'week-13',
+  weeks: '13',
+  dates: 'Dec 3 & Dec 10',
+  title: 'Playable Posters',
+  subtitle: 'Interactive Experiments',
+  description: 'Create a playful interactive poster and document it.',
+  tools: ['p5.js', 'HTML', 'CSS', 'GitHub Pages'],
+  color: 'from-blue-400 to-purple-400',
+  badgeColor: 'border-blue-300 bg-blue-50 text-blue-700',
+  emoji: '🎮',
+  focus: 'Clean motion, clear input, simple UI, strong documentation.',
+  weeklyContent: [
+    {
+      week: 'Week 13.1',
+      date: 'Dec 3',
+      title: 'Playable Poster: Build',
+      activities: {
+        demo: [
+          'Choose input. Keys, mouse, sliders, or buttons',
+          'Center and size the canvas for the browser',
+          'Set timing and easing for polish'
+        ],
+        prompts: [
+          'Define one clear behavior. Keep scope small',
+          'Add a help overlay with key hints',
+          'Capture two or three states for docs'
+        ],
+        lab: 'Build the core interaction and basic UI.',
+        homework: 'Post a link to your poster and a draft docs page.'
+      },
+      resources: [
+        { title: 'p5.js Reference', url: 'https://p5js.org/reference/' },
+        { title: 'p5.js Learn', url: 'https://p5js.org/learn/' },
+        { title: 'Screen capture on Mac', url: 'https://support.apple.com/en-us/HT201361' }
+      ]
+    },
+    {
+      week: 'Week 13.2',
+      date: 'Dec 10',
+      title: 'Playable Poster: Polish + Publish',
+      activities: {
+        demo: [
+          'Add small UI details. Labels and states',
+          'Prep a docs page with short captions',
+          'Quick talk track and live demo tips'
+        ],
+        prompts: [
+          'Fix contrast and type sizes',
+          'Tighten easing and rhythm',
+          'Link poster and docs from your site'
+        ],
+        lab: 'Polish, integrate, and rehearse.',
+        homework: 'Submit your live portfolio URL and a short reflection.'
+      },
+      inspiration: [
+        { title: 'Awwwards Portfolios', url: 'https://www.awwwards.com/websites/portfolio/' },
+        { title: 'Media art docs layout ideas', url: 'https://eyeondesign.aiga.org/' }
+      ],
+      resources: [
+        { title: 'GitHub Pages Guide', url: 'https://pages.github.com/' },
+        { title: 'Meta tags preview', url: 'https://metatags.io/' },
+        { title: 'Contrast checker', url: 'https://contrastchecker.com/' }
+      ]
+    }
+  ]
+}
+
 };
