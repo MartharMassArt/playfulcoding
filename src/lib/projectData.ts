@@ -460,7 +460,6 @@ export const projectsData: Record<string, ProjectDetails> = {
       activities: {
         demo: [
           { text: '👾 Week 11 Slides', url: 'https://docs.google.com/presentation/d/1D2o9cEJITBGD3cfvTuxqDhz_-md455hCyxFbwxLjM3o/edit?usp=sharing' },
-          { text: 'Figma', url: 'https://www.figma.com' },
           'Chase Me',
           'Catch Me',
           'Shape Pop'
