@@ -444,6 +444,74 @@ export const projectsData: Record<string, ProjectDetails> = {
   id: 'week-11-12',
   weeks: '11-12',
   dates: 'Nov 19 & Nov 26',
+  title: 'Playable Posters',
+  subtitle: 'Interactive Experiments',
+  description: 'Create a playful interactive poster.',
+  tools: ['p5.js'],
+  color: 'from-blue-400 to-purple-400',
+  badgeColor: 'border-blue-300 bg-blue-50 text-blue-700',
+  emoji: '🎮',
+  focus: 'Fun to use, clean motion, clear input, simple UI',
+  weeklyContent: [
+    {
+      week: 'Week 11',
+      date: 'Nov 19',
+      title: 'Playable Poster: Build',
+      activities: {
+        demo: [
+          { text: '👾 Week 11 Slides', url: 'https://docs.google.com/presentation/d/1D2o9cEJITBGD3cfvTuxqDhz_-md455hCyxFbwxLjM3o/edit?usp=sharing' },
+          { text: 'Figma', url: 'https://www.figma.com' },
+          'Chase Me',
+          'Catch Me',
+          'Shape Pop'
+        ],
+        prompts: [
+          'Start with one of the demo sketches or your own idea',
+          'Build the core interaction first',
+          'Add basic UI or help text'
+        ],
+        lab: 'Design your Playable Poster.',
+        homework: 'Post a link to your poster and a draft docs page.'
+      },
+      resources: [
+        { title: 'p5.js Reference', url: 'https://p5js.org/reference/' },
+        { title: 'p5.js Learn', url: 'https://p5js.org/learn/' }
+      ]
+    },
+    {
+      week: 'Week 12',
+      date: 'Nov 26',
+      title: 'Playable Poster: Polish + Publish',
+      activities: {
+        demo: [
+          'Add small UI details. Labels and states',
+          'Prep a docs page with short captions',
+          'Quick talk track and live demo tips'
+        ],
+        prompts: [
+          'Fix contrast and type sizes',
+          'Tighten easing and rhythm',
+          'Link poster and docs from your site'
+        ],
+        lab: 'Polish, integrate, and rehearse.',
+        homework: 'Submit your live portfolio URL and a short reflection.'
+      },
+      inspiration: [
+        { title: 'Awwwards Portfolios', url: 'https://www.awwwards.com/websites/portfolio/' },
+        { title: 'Media art docs layout ideas', url: 'https://eyeondesign.aiga.org/' }
+      ],
+      resources: [
+        { title: 'GitHub Pages Guide', url: 'https://pages.github.com/' },
+        { title: 'Meta tags preview', url: 'https://metatags.io/' },
+        { title: 'Contrast checker', url: 'https://contrastchecker.com/' }
+      ]
+    }
+  ]
+},
+  'week-13': {
+  id: 'week-13-14',
+  weeks: '13-14',
+  dates: 'Dec 3 & Dec 10',
   title: 'Living Logos',
   subtitle: 'Generative Branding & Animated Identities',
   description: 'Logos that move, evolve, and respond.',
@@ -454,8 +522,8 @@ export const projectsData: Record<string, ProjectDetails> = {
   focus: 'Motion, variation, and real-time adaptability using simple data.',
   weeklyContent: [
     {
-      week: 'Week 11',
-      date: 'Nov 19',
+      week: 'Week 13',
+      date: 'Dec 3',
       title: 'Data-Driven Logos',
       activities: {
         demo: [
@@ -483,8 +551,8 @@ export const projectsData: Record<string, ProjectDetails> = {
       ]
     },
     {
-      week: 'Week 12',
-      date: 'Nov 26',
+      week: 'Week 14',
+      date: 'Dec 10',
       title: 'Dynamic Identity Systems',
       activities: {
         demo: [
@@ -509,73 +577,6 @@ export const projectsData: Record<string, ProjectDetails> = {
         { title: 'p5.js saveFrames', url: 'https://p5js.org/reference/#/p5/saveFrames' },
         { title: 'p5.js Arrays', url: 'https://p5js.org/reference/#/p5/Array' },
         { title: 'p5.js constrain()', url: 'https://p5js.org/reference/#/p5/constrain' }
-      ]
-    }
-  ]
-},
-  'week-13': {
-  id: 'week-13',
-  weeks: '13',
-  dates: 'Dec 3 & Dec 10',
-  title: 'Playable Posters',
-  subtitle: 'Interactive Experiments',
-  description: 'Create a playful interactive poster and document it.',
-  tools: ['p5.js', 'HTML', 'CSS', 'GitHub Pages'],
-  color: 'from-blue-400 to-purple-400',
-  badgeColor: 'border-blue-300 bg-blue-50 text-blue-700',
-  emoji: '🎮',
-  focus: 'Clean motion, clear input, simple UI, strong documentation.',
-  weeklyContent: [
-    {
-      week: 'Week 13.1',
-      date: 'Dec 3',
-      title: 'Playable Poster: Build',
-      activities: {
-        demo: [
-          'Choose input. Keys, mouse, sliders, or buttons',
-          'Center and size the canvas for the browser',
-          'Set timing and easing for polish'
-        ],
-        prompts: [
-          'Define one clear behavior. Keep scope small',
-          'Add a help overlay with key hints',
-          'Capture two or three states for docs'
-        ],
-        lab: 'Build the core interaction and basic UI.',
-        homework: 'Post a link to your poster and a draft docs page.'
-      },
-      resources: [
-        { title: 'p5.js Reference', url: 'https://p5js.org/reference/' },
-        { title: 'p5.js Learn', url: 'https://p5js.org/learn/' },
-        { title: 'Screen capture on Mac', url: 'https://support.apple.com/en-us/HT201361' }
-      ]
-    },
-    {
-      week: 'Week 13.2',
-      date: 'Dec 10',
-      title: 'Playable Poster: Polish + Publish',
-      activities: {
-        demo: [
-          'Add small UI details. Labels and states',
-          'Prep a docs page with short captions',
-          'Quick talk track and live demo tips'
-        ],
-        prompts: [
-          'Fix contrast and type sizes',
-          'Tighten easing and rhythm',
-          'Link poster and docs from your site'
-        ],
-        lab: 'Polish, integrate, and rehearse.',
-        homework: 'Submit your live portfolio URL and a short reflection.'
-      },
-      inspiration: [
-        { title: 'Awwwards Portfolios', url: 'https://www.awwwards.com/websites/portfolio/' },
-        { title: 'Media art docs layout ideas', url: 'https://eyeondesign.aiga.org/' }
-      ],
-      resources: [
-        { title: 'GitHub Pages Guide', url: 'https://pages.github.com/' },
-        { title: 'Meta tags preview', url: 'https://metatags.io/' },
-        { title: 'Contrast checker', url: 'https://contrastchecker.com/' }
       ]
     }
   ]
