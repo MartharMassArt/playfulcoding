@@ -508,9 +508,9 @@ export const projectsData: Record<string, ProjectDetails> = {
   ]
 },
   'week-13': {
-  id: 'week-13-14',
-  weeks: '13-14',
-  dates: 'Dec 3 & Dec 10',
+  id: 'week-13',
+  weeks: '13',
+  dates: 'Dec 3',
   title: 'Living Logos',
   subtitle: 'Generative Branding & Animated Identities',
   description: 'Logos that move, evolve, and respond.',
@@ -526,14 +526,17 @@ export const projectsData: Record<string, ProjectDetails> = {
       title: 'Data-Driven Logos',
       activities: {
         demo: [
+          { text: '🌱 Week 13 Slides', url: 'https://docs.google.com/presentation/d/1GrhLHk6zIBUqq3yz-wNH2zlg1fQK0D_rjdorMffIaT8/edit?usp=sharing' },
           'Introduce APIs and JSON',
           'Use fetch() or loadJSON() in p5.js to connect to a live dataset',
-          'Map values to color, size, rotation, or layout'
+          'Map values to color, size, rotation, or layout',
+          'Store logo states in an array and switch between them'
         ],
         prompts: [
-          'Pick a dataset. Weather, time, games, trivia, art.',
-          'Map one continuous value. Number to size or hue.',
-          'Map one discrete state. Condition to background or icon.'
+          'Pick one small dataset. Weather, time of day, or a single game stat.',
+          'Design three to five logo states that respond to different data conditions.',
+          'Make sure the states feel like one brand with clear shared rules.',
+          'Plan a landing page that shows all states plus a short legend for the data.'
         ],
         lab: 'Extend a motion sketch into a dynamic data logo.',
         homework: 'Post your first working Data Logo with a short note on the mapping.'
@@ -541,7 +544,9 @@ export const projectsData: Record<string, ProjectDetails> = {
       inspiration: [
         { title: 'Weather API (wttr.in)', url: 'https://wttr.in/Boston?format=j1' },
         { title: 'ISS Location API', url: 'http://api.open-notify.org/iss-now.json' },
-        { title: 'Sunrise/Sunset API', url: 'https://api.sunrise-sunset.org/json' }
+        { title: 'Sunrise/Sunset API', url: 'https://api.sunrise-sunset.org/json' },
+        { title: 'DIA Studio Motion Identities', url: 'https://dia.tv/' },
+        { title: 'MIT Media Lab Identity (overview)', url: 'https://www.elischiff.com/blog/2014/8/6/the-new-mit-media-lab-identity' }
       ],
       resources: [
         { title: 'MDN Fetch + JSON', url: 'https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch' },
@@ -549,6 +554,21 @@ export const projectsData: Record<string, ProjectDetails> = {
         { title: 'p5.js map()', url: 'https://p5js.org/reference/#/p5/map' }
       ]
     },
+  ]
+},
+  'week-14': {
+  id: 'week-14',
+  weeks: '14',
+  dates: 'Dec 10',
+  title: 'Javascropt',
+  subtitle: 'JS & Libraries',
+  description: 'Logos that move, evolve, and respond.',
+  tools: ['js', 'HTML', 'CSS', 'GitHub Pages'],
+  color: 'from-green-400 to-teal-400',
+  badgeColor: 'border-green-300 bg-green-50 text-green-700',
+  emoji: '☕️',
+  focus: 'Motion, variation, and real-time adaptability using simple data.',
+  weeklyContent: [
     {
       week: 'Week 14',
       date: 'Dec 10',
