@@ -536,9 +536,9 @@ export const projectsData: Record<string, ProjectDetails> = {
           'Pick one small dataset. Weather, time of day, or a single game stat.',
           'Design three to five logo states that respond to different data conditions.',
           'Make sure the states feel like one brand with clear shared rules.',
-          'Plan a landing page that shows all states plus a short legend for the data.'
+          'Plan a landing page that shows your logo plus a short legend for the data.'
         ],
-        lab: 'Extend a motion sketch into a dynamic data logo.',
+        lab: 'Make a dynamic data logo.',
         homework: 'Post your first working Data Logo with a short note on the mapping.'
       },
       inspiration: [
