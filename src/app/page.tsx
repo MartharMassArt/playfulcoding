@@ -1,9 +1,14 @@
 import Link from 'next/link';
 import { projectsData } from '@/lib/projectData';
+import StudentGallery from '@/components/StudentGallery';
+import { getApprovedSubmissions } from '@/lib/supabase-server';
 
 const projects = Object.values(projectsData);
 
-export default function Home() {
+export default async function Home() {
+  // Fetch week-14 submissions for the showcase gallery
+  const week14Submissions = await getApprovedSubmissions('week-14');
+  const week14Project = projectsData['week-14'];
   return (
     <div className="space-y-16">
       {/* Hero Section */}
@@ -202,6 +207,25 @@ export default function Home() {
             </li>
           </ul>
         </div>
+      </section>
+
+      {/* Week 14 Gallery Showcase */}
+      <section>
+        <div className="text-center mb-12">
+          <h2 className="text-5xl font-bold mb-4">
+            <span className="bg-gradient-to-r from-green-500 to-teal-500 bg-clip-text text-transparent">
+              Gallery Showcase
+            </span>
+          </h2>
+          <p className="text-lg text-gray-600">
+            Week 14 Final Presentations - Student Work
+          </p>
+        </div>
+        <StudentGallery
+          submissions={week14Submissions}
+          weeklyContent={week14Project.weeklyContent}
+          projectColor={week14Project.color}
+        />
       </section>
     </div>
   );
