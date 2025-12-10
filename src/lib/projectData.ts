@@ -270,9 +270,9 @@ export const projectsData: Record<string, ProjectDetails> = {
     title: 'BUILD IT!!!',
     description: 'Build + Publish Your Own Site',
     tools: ['HTML', 'CSS', 'Github'],
-    color: 'from-indigo-400 to-purple-400',
-    badgeColor: 'border-indigo-300 bg-indigo-50 text-indigo-700',
-    emoji: '🚀',
+    color: 'from-emerald-400 to-green-400',
+    badgeColor: 'border-green-300 bg-green-50 text-green-700',
+    emoji: '🧱',
     focus: 'Creating a cohesive portfolio showcasing all projects',
     weeklyContent: [
       {
@@ -397,8 +397,8 @@ export const projectsData: Record<string, ProjectDetails> = {
   subtitle: 'Design, Code & Publish',
   description: 'Translate a Figma design into a live website and publish it with GitHub Pages.',
   tools: ['Figma', 'HTML', 'CSS', 'GitHub Pages'],
-  color: 'from-emerald-400 to-green-400',
-  badgeColor: 'border-green-300 bg-green-50 text-green-700',
+  color: 'from-indigo-400 to-purple-400',
+  badgeColor: 'border-indigo-300 bg-indigo-50 text-indigo-700',
   emoji: '🚀',
   focus: 'Move from visual design to browser layout and prep for animated, data-connected projects.',
   weeklyContent: [
@@ -448,8 +448,8 @@ export const projectsData: Record<string, ProjectDetails> = {
   subtitle: 'Interactive Experiments',
   description: 'Create a playful interactive poster.',
   tools: ['p5.js'],
-  color: 'from-blue-400 to-purple-400',
-  badgeColor: 'border-blue-300 bg-blue-50 text-blue-700',
+  color: 'from-pink-400 to-red-400',
+  badgeColor: 'border-pink-300 bg-pink-50 text-pink-700',
   emoji: '🎮',
   focus: 'Fun to use, clean motion, clear input, simple UI',
   weeklyContent: [
@@ -515,8 +515,8 @@ export const projectsData: Record<string, ProjectDetails> = {
   subtitle: 'Generative Branding & Animated Identities',
   description: 'Logos that move, evolve, and respond.',
   tools: ['p5.js'],
-  color: 'from-green-400 to-teal-400',
-  badgeColor: 'border-green-300 bg-green-50 text-green-700',
+  color: 'from-orange-400 to-yellow-400',
+  badgeColor: 'border-orange-300 bg-orange-50 text-orange-700',
   emoji: '🌱',
   focus: 'Motion, variation, and real-time adaptability using simple data.',
   weeklyContent: [
@@ -556,49 +556,39 @@ export const projectsData: Record<string, ProjectDetails> = {
     },
   ]
 },
-  'week-14': {
+ 'week-14': {
   id: 'week-14',
   weeks: '14',
   dates: 'Dec 10',
   title: 'Gallery Showcase',
-  subtitle: 'Final Presentations',
-  description: 'Present your best work from the semester.',
-  tools: ['js', 'HTML', 'CSS', 'GitHub Pages'],
-  color: 'from-green-400 to-teal-400',
-  badgeColor: 'border-green-300 bg-green-50 text-green-700',
-  emoji: '☕️',
-  focus: 'Motion, variation, and real-time adaptability using simple data.',
+  subtitle: 'Refine, Publish, Celebrate',
+  description: 'Pick 1–3 favorite projects from the semester. Refine them in class and publish them on your site.',
+  tools: ['p5.js', 'HTML', 'CSS', 'GitHub Pages'],
+  color: 'from-purple-400 to-pink-400',
+  badgeColor: 'border-purple-300 bg-purple-50 text-purple-700',
+  emoji: '🖼',
+  focus: 'Quiet work time, light support, and a simple gallery launch.',
   weeklyContent: [
     {
       week: 'Week 14',
       date: 'Dec 10',
-      title: 'Dynamic Identity Systems',
+      title: 'Gallery Showcase',
       activities: {
         demo: [
-          'Curate variations into a system',
-          'Present logos in context',
-          'Refine motion rules and easing'
+          'No demo this week',
+          'Snacks and open help as needed'
         ],
         prompts: [
-          'Build a family of 10+ data-responsive logos that feel connected',
-          'Show range across multiple data states',
-          'Create a landing page with a clear legend'
+          'Choose 1–3 projects you want to feature',
+          'Make small fixes or refinements in class',
+          'Add each project to the class site'
         ],
-        lab: 'Refine your dynamic logo into a coherent system.',
-        homework: 'Post a Dynamic Data Identity Kit. Landing page, legend, variations, and a design note.'
+        lab: 'Work session with snacks. Ask questions. Get help with any last issues.',
+        homework: 'Submit NEW final links to the Gallery page.'
       },
-      inspiration: [
-        { title: 'DIA Studio Motion Identities', url: 'https://dia.tv/' },
-        { title: 'MIT Media Lab Identity (overview)', url: 'https://www.elischiff.com/blog/2014/8/6/the-new-mit-media-lab-identity' },
-        { title: 'Generative Design Book', url: 'https://www.generative-gestaltung.de/2/' }
-      ],
-      resources: [
-        { title: 'p5.js saveFrames', url: 'https://p5js.org/reference/#/p5/saveFrames' },
-        { title: 'p5.js Arrays', url: 'https://p5js.org/reference/#/p5/Array' },
-        { title: 'p5.js constrain()', url: 'https://p5js.org/reference/#/p5/constrain' }
-      ]
+      inspiration: [],
+      
     }
   ]
 }
-
 };

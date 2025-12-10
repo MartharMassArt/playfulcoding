@@ -47,24 +47,24 @@ export default async function Home() {
               <div className="bg-gradient-to-br from-purple-100 to-purple-50 p-4 rounded-xl">
                 <p className="font-mono text-sm text-purple-700 mb-2">Think:</p>
                 <p className="text-sm">
-                  <span className="font-semibold">Photoshop Filters</span> → <span className="font-semibold">HTML & CSS</span><br/>
-                  Make your own effects instead of just clicking &quot;blur&quot;
+                  <span className="font-semibold">Animated Type Lab</span> → <span className="font-semibold">Your own motion tool</span><br/>
+                  A tiny engine that makes letters move stretch shift
                 </p>
               </div>
               
               <div className="bg-gradient-to-br from-pink-100 to-pink-50 p-4 rounded-xl">
                 <p className="font-mono text-sm text-pink-700 mb-2">Think:</p>
                 <p className="text-sm">
-                  <span className="font-semibold">Static logos</span> → <span className="font-semibold">Living brands</span><br/>
-                  Logos that move, evolve and respond
+                  <span className="font-semibold">Pattern Party</span> → <span className="font-semibold">Your own pattern generator</span><br/>
+                  A system that creates endless textures for branding
                 </p>
               </div>
               
               <div className="bg-gradient-to-br from-orange-100 to-orange-50 p-4 rounded-xl">
                 <p className="font-mono text-sm text-orange-700 mb-2">Think:</p>
                 <p className="text-sm">
-                  <span className="font-semibold">Posters on walls</span> → <span className="font-semibold">Interactive art</span><br/>
-                  Dynamic compositions you can play with
+                  <span className="font-semibold">Static logos</span> → <span className="font-semibold">Living brands</span><br/>
+                  Logos that move, evolve and respond
                 </p>
               </div>
             </div>
@@ -82,7 +82,7 @@ export default async function Home() {
       <section>
         <div className="text-center mb-12">
           <h2 className="text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-green-500 to-teal-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
               Gallery Showcase
             </span>
           </h2>
