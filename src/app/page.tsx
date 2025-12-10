@@ -3,6 +3,8 @@ import { projectsData } from '@/lib/projectData';
 import StudentGallery from '@/components/StudentGallery';
 import { getApprovedSubmissions } from '@/lib/supabase-server';
 
+export const dynamic = 'force-dynamic';
+
 const projects = Object.values(projectsData);
 
 export default async function Home() {
