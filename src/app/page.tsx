@@ -78,6 +78,26 @@ export default async function Home() {
         </div>
       </section>
 
+      {/* Week 14 Gallery Showcase */}
+      <section>
+        <div className="text-center mb-12">
+          <h2 className="text-5xl font-bold mb-4">
+            <span className="bg-gradient-to-r from-green-500 to-teal-500 bg-clip-text text-transparent">
+              Gallery Showcase
+            </span>
+          </h2>
+          <p className="text-lg text-gray-600">
+            Week 14 Final Presentations - Student Work
+          </p>
+        </div>
+        <StudentGallery
+          noTitle={true}
+          submissions={week14Submissions}
+          weeklyContent={week14Project.weeklyContent}
+          projectColor={week14Project.color}
+        />
+      </section>
+
       {/* Schedule Overview */}
       <section>
         <div className="text-center mb-12">
@@ -209,24 +229,6 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Week 14 Gallery Showcase */}
-      <section>
-        <div className="text-center mb-12">
-          <h2 className="text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-green-500 to-teal-500 bg-clip-text text-transparent">
-              Gallery Showcase
-            </span>
-          </h2>
-          <p className="text-lg text-gray-600">
-            Week 14 Final Presentations - Student Work
-          </p>
-        </div>
-        <StudentGallery
-          submissions={week14Submissions}
-          weeklyContent={week14Project.weeklyContent}
-          projectColor={week14Project.color}
-        />
-      </section>
     </div>
   );
 }

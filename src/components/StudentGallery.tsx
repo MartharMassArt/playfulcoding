@@ -17,9 +17,10 @@ interface StudentGalleryProps {
   submissions: Submission[];
   weeklyContent: Array<{ week: string }>;
   projectColor: string;
+  noTitle?: boolean;
 }
 
-export default function StudentGallery({ submissions, weeklyContent, projectColor }: StudentGalleryProps) {
+export default function StudentGallery({ submissions, weeklyContent, projectColor, noTitle }: StudentGalleryProps) {
   // For multi-week projects, submissions use "Week 1" or "Week 2" to indicate
   // which week of the PROJECT they belong to, not the calendar week
   const projectWeeks = ['Week 1', 'Week 2'];
@@ -43,11 +44,11 @@ export default function StudentGallery({ submissions, weeklyContent, projectColo
 
   return (
     <section>
-      <h2 className="text-3xl font-bold text-center mb-8">
+      {!noTitle && <h2 className="text-3xl font-bold text-center mb-8">
         <span className="bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent">
           Student Gallery
         </span>
-      </h2>
+      </h2>}
 
       {/* Week Tabs for Gallery */}
       {weeklyContent.length > 1 && (
